@@ -1,0 +1,278 @@
+metric space: 17
+positive integer: 11
+open set: 9
+open covering: 9
+primitive root modulo: 9
+open interval: 8
+normal subgroup: 7
+real number: 6
+countable base: 6
+continuous function: 6
+multiple root: 6
+real function: 5
+other hand: 5
+countable open covering: 5
+countable compact: 5
+normal operator: 5
+square free integer: 5
+free integer: 5
+cyclic group: 5
+dense subset: 4
+standard topology: 4
+quotient map: 4
+open map: 4
+open neighborhood: 4
+other word: 4
+square root: 4
+finite group: 4
+same order: 4
+nonempty subset: 3
+minimum value: 3
+differentiable function: 3
+unique large topology: 3
+large topology: 3
+finite subcollection: 3
+countable dense subset: 3
+complementary subspace: 3
+linear combination: 3
+scalar multiple: 3
+orthonormal basis: 3
+perfect square: 3
+nonabelian group: 3
+rational root: 3
+linear factor: 3
+non - empty open set: 2
+- empty open set: 2
+empty open set: 2
+many point: 2
+countable set: 2
+such point: 2
+countable collection: 2
+positive integer such: 2
+continuous real function: 2
+closed set: 2
+continuous mapping: 2
+continuous extension: 2
+intermediate value theorem: 2
+finite intersection: 2
+dictionary order topology: 2
+metrisable space: 2
+continuous map: 2
+connected subspace: 2
+finite subcovering: 2
+infinite subset: 2
+uniform topology: 2
+countable basis: 2
+above definition: 2
+cube root: 2
+complex number: 2
+same eigenvalue: 2
+single eigenvalue: 2
+simple calculation: 2
+complex inner - product space: 2
+complex inner product space: 2
+inner product space: 2
+prime factor: 2
+prime number: 2
+small ball: 2
+left side: 2
+empty subset: 2
+compact set: 2
+even number: 2
+abelian group: 2
+characterestic subgroup: 2
+unique subgroup: 2
+only subgroup: 2
+quadratic residue: 2
+infinite field: 2
+proper subspace: 2
+gauss integer: 2
+finite field: 2
+upper und: 1
+upper bound: 1
+complex field: 1
+complex number such: 1
+routine computation: 1
+compact metric space: 1
+rational number: 1
+other interval: 1
+real sequence: 1
+same limit: 1
+cauchy product: 1
+absolute convergence: 1
+nonnegative term: 1
+last term: 1
+finite limit: 1
+closed nonempty: 1
+complete metric space: 1
+second point: 1
+inverse image: 1
+same inequality: 1
+absolute value: 1
+previous problem: 1
+real continuous function: 1
+continuous open mapping: 1
+open mapping: 1
+maximum value: 1
+closed interval: 1
+positive number small: 1
+positive assertion: 1
+second equation: 1
+such topology: 1
+above question: 1
+discrete topology: 1
+connected subset: 1
+connected space: 1
+disjoint non - empty set: 1
+non - empty set: 1
+- empty set: 1
+empty set: 1
+topological group: 1
+closed continuous surjective map such: 1
+continuous surjective map such: 1
+surjective map such: 1
+perfect map: 1
+elementary set theory: 1
+countable compactness: 1
+countable compact space: 1
+compact space: 1
+closed subset: 1
+countable infinite subset: 1
+open ball: 1
+countable product: 1
+finite subset: 1
+inner set: 1
+ordered set: 1
+open disjoint: 1
+regular space: 1
+closed subspace: 1
+same exercise: 1
+open subset: 1
+natural number: 1
+first inequality: 1
+triangular inequality: 1
+above calculation: 1
+unique extension: 1
+multiplicative inverse: 1
+scalar multiplication: 1
+initial assumption: 1
+other way: 1
+finite dimensional: 1
+complementary subset: 1
+tinear combination: 1
+left hand side: 1
+right hand side: 1
+previous equation: 1
+arbitrary eigenvalue: 1
+exact same eigenvalue: 1
+real vector space: 1
+inner product: 1
+thonormal list: 1
+simple calculation verifie: 1
+simple calculator verifie: 1
+final simple calculation: 1
+complex spectral theorem: 1
+spectral theorem: 1
+diagonal matrix: 1
+corresponding eigenvalue: 1
+large power: 1
+odd denominator: 1
+square free: 1
+prime integer less: 1
+last formula: 1
+complete set: 1
+first case: 1
+other case: 1
+previous result: 1
+primitive root: 1
+quadratic reciprocity: 1
+biquadratic residue modulo: 1
+algebraic number: 1
+corresponding sum: 1
+harmonic series: 1
+small semicircle: 1
+imaginary part more: 1
+analytic function: 1
+entire function: 1
+essential singularity: 1
+fundamental theorem: 1
+characteristic function: 1
+other zero: 1
+partial sum: 1
+mean value theorem: 1
+last step: 1
+odd integer: 1
+many possibility: 1
+unique positive integer: 1
+only possibility: 1
+unique solution: 1
+continuous third derivative such: 1
+third derivative such: 1
+great common divisor: 1
+common divisor: 1
+many prime: 1
+many time: 1
+direct proof: 1
+main metric space: 1
+integral test: 1
+uniform continuity: 1
+such element: 1
+even cardinality: 1
+finite number: 1
+consecutive integer: 1
+intermediate result: 1
+proper subgroup: 1
+cyclic subgroup: 1
+proper non - trivial subgroup: 1
+non - trivial subgroup: 1
+- trivial subgroup: 1
+trivial subgroup: 1
+characteristic subgroup: 1
+arbitrary element: 1
+above step: 1
+above remark: 1
+non - empty subset: 1
+- empty subset: 1
+other possible generator: 1
+possible generator: 1
+new group structure: 1
+prime order: 1
+sylow subgroup: 1
+normal sylow p - subgroup: 1
+common element: 1
+same element: 1
+inverse disturb: 1
+symmetric group: 1
+commutative ring: 1
+additive subgroup: 1
+quadratic nonresidue: 1
+least positive residue: 1
+positive residue: 1
+positive integer less: 1
+quadratic non - residue: 1
+polynomial coefficient: 1
+second equality: 1
+new polynomial: 1
+formal derivative: 1
+splitting field: 1
+other direction: 1
+above condition: 1
+distinct root: 1
+conjugate element: 1
+many proper subspace: 1
+other subspace: 1
+third theorem: 1
+first term: 1
+second term: 1
+imaginary part: 1
+quadratic factor: 1
+brute force: 1
+many prime congruent: 1
+main claim: 1
+such prime: 1
+other prime: 1
+above lemma: 1
+polynomial split: 1
+residue class: 1
+inductive step: 1
+arbitrary group element: 1

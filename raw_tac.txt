@@ -596,7 +596,7 @@ Each definition is given in two pages, with a further two pages on what happens 
 The definitions can be read independently.
 Chatty bibliography follows.
 Codescent morphisms are described in regular categories which satisfy the so-called strong amalgamation property.
-Among varieties of universal algebras possessing this property are, as is known, categories of groups, not necessarily associative rings, $M $-sets (for a monoid $M $), Lie algebras (over a field), quasi-groups, commutative quasi-groups, Steiner quasi-groups, medial quasi-groups, semilattice $lattices, weakly associative lattices, Boolean algebras, Heyting algebras.
+Among varieties of universal algebras possessing this property are, as is known, categories of groups, not necessarily associative rings, $M $-sets (for a monoid $M $), Lie algebras (over a field), quasi-groups, commutative quasi-groups, Steiner quasi-groups, medial quasi-groups, semilattice lattices, weakly associative lattices, Boolean algebras, Heyting algebras.
 It is shown that every codescent morphism of groups is effective.
 We generalize Dress and Müller's main result on decomposable functors and the exponential principle.
 We observe that their result can be seen as a characterization of free algebras for certain monad on the category of species.

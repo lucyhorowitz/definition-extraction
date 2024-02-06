@@ -123,6 +123,7 @@
 
 # sent_id = 5
 # sent_len = 30
+# definition
 # text = This paper introduces $ infinity $ - and $ n $ - fold vector bundles as special functors from the $ infinity $ - and $ n $ - cube categories to the category of smooth manifolds.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
 2	paper	paper	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -454,6 +455,7 @@
 
 # sent_id = 14
 # sent_len = 45
+# definition?
 # text = If $ M $ is a model of $ T_0 $ in an elementary topos $ S $ with nno, then the classifier $ p: ST_1/M - &gt; S $ satisfies the representable definition of being an (op)fibration in the 2 - category $ ETop $ of elementary toposes (with nno) and geometric morphisms.
 1	If	if	SCONJ	IN	_	3	mark	_	_
 2	$ M $	$ m $	SYM	$	_	3	nsubj	_	_
@@ -576,6 +578,7 @@
 
 # sent_id = 17
 # sent_len = 15
+# definition
 # text = The right adjoint of this Quillen equivalence is the classical Segal's Nerve functor.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	right	right	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -1264,6 +1267,7 @@
 
 # sent_id = 38
 # sent_len = 37
+# definition
 # text = An object is locally small precisely if it admits a horizontal unit, and we show that the notions of augmented virtual double category and virtual double category coincide in the presence of all horizontal units.
 1	An	an	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	object	object	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -1933,6 +1937,7 @@
 
 # sent_id = 58
 # sent_len = 26
+# definition
 # text = The term ``Boolean category'' should be used for describing an object that is to categories what a Boolean algebra is to posets.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	term	term	NOUN	NN	Number=Sing	10	nsubjpass	_	_
@@ -2187,6 +2192,7 @@
 
 # sent_id = 66
 # sent_len = 34
+# definition
 # text = A category $ C $ is additive if and only if, for every object $ B $ of $ C $ , the category $ Pt(C, B) $ of pointed objects in the comma category $ (C, B) $ is canonically equivalent to $ C $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	category	category	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -2613,6 +2619,7 @@
 
 # sent_id = 80
 # sent_len = 28
+# definition?
 # text = To state this more powerful result, we must first define the notion of a `Frobenius pseudomonoid', which categorifies that of a Frobenius object.
 1	To	to	PART	TO	_	2	aux	_	_
 2	state	state	VERB	VB	VerbForm=Inf	11	advcl	_	_
@@ -2645,6 +2652,7 @@
 
 # sent_id = 81
 # sent_len = 18
+# definition?
 # text = We then define the notion of a `pseudo ambijunction', categorifying that of an ambijunction.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	then	then	ADV	RB	PronType=Dem	3	advmod	_	_
@@ -2722,6 +2730,7 @@
 
 # sent_id = 84
 # sent_len = 16
+# definition
 # text = A flow is homotopy continuous if it is indefinitely divisible up to $ S $ - homotopy.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	flow	flow	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -3190,6 +3199,7 @@
 
 # sent_id = 99
 # sent_len = 10
+# definition
 # text = We call such 2 - monads property - like.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	call	call	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
@@ -3252,6 +3262,7 @@
 
 # sent_id = 101
 # sent_len = 57
+# definition
 # text = The consideration of lax morphisms leads us to a new characterization of those monads, studied by Kock and Zoberlein, for which `structure is adjoint to unit', and which we now call lax - idempotent 2 - monads: both these and their colax - idempotent duals are fully property - like.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	consideration	consideration	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -3559,6 +3570,7 @@
 
 # sent_id = 109
 # sent_len = 14
+# definition
 # text = We show that associative coequalizing multiplications suffice and call the resulting structures interpolads.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	show	show	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
@@ -3620,6 +3632,7 @@
 
 # sent_id = 111
 # sent_len = 43
+# definition
 # text = Interpolads over rel are idempotent relations, over the suspension of set they correspond to interpolative semi - groups, and over spn they lead to a notion of ``category without identities'' also known as ``taxonomy''.
 1	Interpolads	interpolad	NOUN	NNS	Number=Plur	4	nsubj	_	_
 2	over	over	ADP	IN	_	1	prep	_	_
@@ -3705,6 +3718,7 @@
 
 # sent_id = 113
 # sent_len = 28
+# definition
 # text = For $ m &gt; = n &gt; 0 $ , a map $ f $ between pointed spaces is said to be a weak $ n, m $ - equivalence if $ f $ induces isomorphisms of the homotopy groups $ pi_k for n &lt; = k &lt; = m~ $ .
 1	For	for	ADP	IN	_	11	prep	_	_
 2	$ m &gt; = n &gt; 0 $	$ m &gt; = n &gt; 0 $	SYM	$	_	1	pobj	_	_
@@ -3975,6 +3989,7 @@
 
 # sent_id = 122
 # sent_len = 17
+# definition
 # text = For each base category $ K $ call the just mentioned property (sketch) $ K $ - multilinearity.
 1	For	for	ADP	IN	_	6	prep	_	_
 2	each	each	DET	DT	_	4	det	_	_
@@ -3996,6 +4011,7 @@
 
 # sent_id = 123
 # sent_len = 52
+# definition
 # text = Say that two sketches are $ K $ - compatible with respect to base category $ K $ just in case in each $ K $ - model, the limits for each limit specification in each sketch commute with the colimits for each colimit specification in the other sketch and all limits and colimits are pointwise.
 1	Say	say	VERB	VB	VerbForm=Inf	50	advcl	_	_
 2	that	that	SCONJ	IN	_	5	mark	_	_
@@ -4052,6 +4068,7 @@
 
 # sent_id = 124
 # sent_len = 18
+# definition
 # text = Two sketches are $ K $ - multilinear if and only if the two sketches are $ K $ - compatible.
 1	Two	two	NUM	CD	NumType=Card	2	nummod	_	_
 2	sketches	sketch	NOUN	NNS	Number=Plur	3	nsubj	_	_
@@ -4250,6 +4267,7 @@
 
 # sent_id = 131
 # sent_len = 36
+# definition
 # text = Finally, the morphism $ f : A - - &gt; B $ is said to be a covering of $ B $ if, for some effective descent morphism $ p : E - - &gt; B $ , the pullback $ p^*f $ of $ f $ along $ p $ is a trivial covering of $ E $ .
 1	Finally	finally	ADV	RB	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
@@ -4431,6 +4449,7 @@
 
 # sent_id = 135
 # sent_len = 38
+# definition
 # text = We define a localization $ L $ of a category $ E $ to be quintessential if the left adjoint to the inclusion functor is also right adjoint to it, and persistent if $ L $ is closed under subobjects in $ E $ .
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	define	define	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
@@ -5103,6 +5122,7 @@
 
 # sent_id = 159
 # sent_len = 16
+# definition
 # text = We introduce MD - sketches, which are a particular kind of Finite Sum sketches.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	introduce	introduce	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
@@ -5731,6 +5751,7 @@
 
 # sent_id = 181
 # sent_len = 10
+# definition
 # text = When it does, we call the string distributive.
 1	When	when	SCONJ	WRB	_	3	advmod	_	_
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -7151,129 +7172,6 @@
 14	discussed	discuss	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
 15	.	.	PUNCT	.	PunctType=Peri	14	punct	_	SpaceAfter=No
 
-# sent_id = 227
-# sent_len = 90
-# text = Generalising a result of Brown and Loday, we give for $ n = 3 $ and 4, a decomposition of the group, $ d_nNG_n, of boundaries of a simplicial group G as a product of commutator subgroups. Partial results are given for higher dimensions. Applications to 2 - crossed modules and quadratic modules are discussed. This paper shows that, given a factorization system, $ E/M $ on a closed symmetric monoidal category, the full subcategory of separated extensional objects of the Chu category is also star - autonomous under weaker conditions than had been given previously. In the process we find conditions under which the intersection of a full reflective subcategory and its coreflective dual in a Chu category is star - autonomous. We introduce a notion of equipment which generalizes the earlier notion of pro - arrow equipment and includes such familiar constructs as $ relK $ , $ spnK $ , $ parK $ , and $ proK $ for a suitable category $ K $ , along with related constructs such as the $ V $ - $ pro $ arising from a suitable monoidal category $ V $ . We further exhibit the equipments as the objects of a 2 - category, in such a way that arbitrary functors $ F: eL &gt;relK $ , $ spn F: spneL &gt; W $ . The article I with the title above dealt with those equipments $ M $ having each $ M(A, B) $ only an ordered set, and contained a detailed analysis of the case $ M = relK $ ; in the present article we allow the $ M(A, B) $ to be general categories, and illustrate our results by a detailed study of the case $ M = spnK $ . We show in particular that $ spn $ is a locally - fully - faithful 2 - functor to the 2 - category of equipments, and determine its image on arrows. After analyzing the nature of adjunctions in the 2 - category of equipments, we are able to give a simple characterization of those $ spn G $ which arise from a geometric morphism $ G $ . The theory of enriched accessible categories over a suitable base category $ V $ is developed. It is proved that these enriched accessible categories coincide with the categories of flat functors, but also with the categories of models of enriched sketches. A particular attention is devoted to enriched locally presentable categories and enriched functors. We show that the homotopy category of simplicial diagrams $ I - SS $ indexed by a small category $
-1	Generalising	generalise	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	10	advcl	_	_
-2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
-3	result	result	NOUN	NN	Number=Sing	1	dobj	_	_
-4	of	of	ADP	IN	_	3	prep	_	_
-5	Brown	Brown	PROPN	NNP	Number=Sing	4	pobj	_	_
-6	and	and	CCONJ	CC	ConjType=Cmp	5	cc	_	_
-7	Loday	Loday	PROPN	NNP	Number=Sing	5	conj	_	SpaceAfter=No
-8	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
-9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
-10	give	give	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-11	for	for	ADP	IN	_	10	prep	_	_
-12	$ n = 3 $	$ n = 3 $	SYM	$	_	10	dobj	_	_
-13	and	and	CCONJ	CC	ConjType=Cmp	12	cc	_	_
-14	4	4	NUM	CD	NumType=Card	12	conj	_	SpaceAfter=No
-15	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
-16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
-17	decomposition	decomposition	NOUN	NN	Number=Sing	10	dobj	_	_
-18	of	of	ADP	IN	_	17	prep	_	_
-19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
-20	group	group	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
-21	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
-22	$ d_nNG_n, of boundaries of a simplicial group G as a product of commutator subgroups. Partial results are given for higher dimensions. Applications to 2 - crossed modules and quadratic modules are discussed. This paper shows that, given a factorization system, $	$ d_nng_n, of boundaries of a simplicial group g as a product of commutator subgroups. partial results are given for higher dimensions. applications to 2 - crossed modules and quadratic modules are discussed. this paper shows that, given a factorization system, $	SYM	$	_	23	nmod	_	_
-23	E	e	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
-24	/	/	NOUN	NN	Number=Sing	17	npadvmod	_	SpaceAfter=No
-25	M	M	PROPN	NNP	Number=Sing	17	conj	_	_
-26	$ on a closed symmetric monoidal category, the full subcategory of separated extensional objects of the Chu category is also star - autonomous under weaker conditions than had been given previously. In the process we find conditions under which the intersection of a full reflective subcategory and its coreflective dual in a Chu category is star - autonomous. We introduce a notion of equipment which generalizes the earlier notion of pro - arrow equipment and includes such familiar constructs as $	$ on a closed symmetric monoidal category, the full subcategory of separated extensional objects of the chu category is also star - autonomous under weaker conditions than had been given previously. in the process we find conditions under which the intersection of a full reflective subcategory and its coreflective dual in a chu category is star - autonomous. we introduce a notion of equipment which generalizes the earlier notion of pro - arrow equipment and includes such familiar constructs as $	SYM	$	_	27	nmod	_	_
-27	relK	relk	NOUN	NN	Number=Sing	17	prep	_	_
-28	$ , $	$ , $	SYM	$	_	29	nmod	_	_
-29	spnK	spnk	SYM	$	_	27	appos	_	_
-30	$ , $	$ , $	SYM	$	_	31	nmod	_	_
-31	parK	parK	NOUN	NNS	Number=Plur	17	appos	_	_
-32	$ , and $	$ , and $	SYM	$	_	33	nmod	_	_
-33	proK	prok	NOUN	NN	Number=Sing	31	conj	_	_
-34	$ for a suitable category $	$ for a suitable category $	NOUN	NN	Number=Sing	33	punct	_	_
-35	K	k	NOUN	NN	Number=Sing	33	appos	_	_
-36	$ , along with related constructs such as the $	$ , along with related constructs such as the $	X	XX	_	38	nmod	_	_
-37	V	v	NOUN	NN	Number=Sing	36	nmod	_	_
-38	$ - $	$ - $	SYM	$	_	41	nmod	_	_
-39	pro	pro	X	FW	Foreign=Yes	38	amod	_	_
-40	$ arising from a suitable monoidal category $	$ arising from a suitable monoidal category $	X	FW	Foreign=Yes	41	nmod	_	_
-41	V	v	NOUN	NN	Number=Sing	17	prep	_	_
-42	$ . We further exhibit the equipments as the objects of a 2 - category, in such a way that arbitrary functors $	$ . we further exhibit the equipments as the objects of a 2 - category, in such a way that arbitrary functors $	NOUN	NN	Number=Sing	43	nmod	_	_
-43	F	F	PROPN	NNP	Number=Sing	41	appos	_	SpaceAfter=No
-44	:	:	PUNCT	:	_	43	punct	_	_
-45	eL	eL	PROPN	NNP	Number=Sing	43	appos	_	_
-46	&	&	CCONJ	CC	ConjType=Cmp	43	cc	_	SpaceAfter=No
-47	gt;relK	gt;relK	PROPN	NNP	Number=Sing	43	conj	_	_
-48	$ , $	$ , $	SYM	$	_	49	nmod	_	_
-49	spn	spn	NOUN	NN	Number=Sing	52	compound	_	_
-50	F	F	PROPN	NNP	Number=Sing	52	nmod	_	SpaceAfter=No
-51	:	:	PUNCT	:	_	52	punct	_	_
-52	spneL	spneL	PROPN	NNP	Number=Sing	17	appos	_	_
-53	&	&	CCONJ	CC	ConjType=Cmp	52	cc	_	SpaceAfter=No
-54	gt	gt	PROPN	NNP	Number=Sing	52	conj	_	SpaceAfter=No
-55	;	;	PUNCT	:	_	17	punct	_	_
-56	W	W	PROPN	NNP	Number=Sing	60	nmod	_	_
-57	$ . The article I with the title above dealt with those equipments $	$ . the article i with the title above dealt with those equipments $	SYM	$	_	60	quantmod	_	_
-58	M	m	NOUN	NN	Number=Sing	60	compound	_	_
-59	$ having each $	$ having each $	NOUN	NNS	Number=Plur	60	nmod	_	_
-60	M(A	m(a	NOUN	NN	Number=Sing	17	appos	_	SpaceAfter=No
-61	,	,	PUNCT	,	PunctType=Comm	60	punct	_	_
-62	B	b	NOUN	NN	Number=Sing	60	appos	_	SpaceAfter=No
-63	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	60	punct	_	_
-64	$ only an ordered set, and contained a detailed analysis of the case $	$ only an ordered set, and contained a detailed analysis of the case $	SYM	$	_	17	prep	_	_
-65	M	M	PROPN	NNP	Number=Sing	67	compound	_	_
-66	=	=	PUNCT	HYPH	PunctType=Dash	67	punct	_	_
-67	relK	relK	PROPN	NNP	Number=Sing	69	nmod	_	_
-68	$ ; in the present article we allow the $	$ ; in the present article we allow the $	X	XX	_	69	nmod	_	_
-69	M(A	m(a	NOUN	NN	Number=Sing	64	pobj	_	SpaceAfter=No
-70	,	,	PUNCT	,	PunctType=Comm	69	punct	_	_
-71	B	B	PROPN	NNP	Number=Sing	69	appos	_	SpaceAfter=No
-72	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	69	punct	_	_
-73	$ to be general categories, and illustrate our results by a detailed study of the case $	$ to be general categories, and illustrate our results by a detailed study of the case $	SYM	$	_	17	prep	_	_
-74	M	m	NOUN	NN	Number=Sing	73	pobj	_	_
-75	=	=	NOUN	NN	Number=Sing	74	punct	_	_
-76	spnK	spnk	X	FW	Foreign=Yes	17	prep	_	_
-77	$ . We show in particular that $	$ . we show in particular that $	X	XX	_	81	nmod	_	_
-78	spn	spn	NOUN	NN	Number=Sing	81	compound	_	_
-79	$ is a locally - fully - faithful 2 - functor to the 2 - category of equipments, and determine its image on arrows. After analyzing the nature of adjunctions in the 2 - category of equipments, we are able to give a simple characterization of those $	$ is a locally - fully - faithful 2 - functor to the 2 - category of equipments, and determine its image on arrows. after analyzing the nature of adjunctions in the 2 - category of equipments, we are able to give a simple characterization of those $	NOUN	NN	Number=Sing	80	quantmod	_	_
-80	spn	spn	NOUN	NN	Number=Sing	81	compound	_	_
-81	G	G	PROPN	NNP	Number=Sing	85	nsubj	_	_
-82	$ which arise from a geometric morphism $	$ which arise from a geometric morphism $	NOUN	NN	Number=Sing	83	nmod	_	_
-83	G	g	NOUN	NN	Number=Sing	85	nmod	_	_
-84	$ . The theory of enriched accessible categories over a suitable base category $	$ . the theory of enriched accessible categories over a suitable base category $	NOUN	NN	Number=Sing	85	nmod	_	_
-85	V	v	NOUN	NN	Number=Sing	86	compound	_	_
-86	$ is developed. It is proved that these enriched accessible categories coincide with the categories of flat functors, but also with the categories of models of enriched sketches. A particular attention is devoted to enriched locally presentable categories and enriched functors. We show that the homotopy category of simplicial diagrams $	$ is developed. it is proved that these enriched accessible categories coincide with the categories of flat functors, but also with the categories of models of enriched sketches. a particular attention is devoted to enriched locally presentable categories and enriched functors. we show that the homotopy category of simplicial diagrams $	NOUN	NN	Number=Sing	89	nmod	_	_
-87	I	I	PROPN	NNP	Number=Sing	89	compound	_	_
-88	-	-	PUNCT	HYPH	PunctType=Dash	89	punct	_	_
-89	SS	SS	PROPN	NNP	Number=Sing	17	appos	_	_
-90	$ indexed by a small category $	$ indexed by a small category $	SYM	$	_	10	punct	_	SpaceAfter=No
-
-# sent_id = 228
-# sent_len = 25
-# text = I $ is equivalent to a homotopy category of $ SSdownarrow NI $ simplicial sets over the nerve $ NI $ . Then their equivalences, by means of the nerve functor N : Cat - - &gt; SS $ from the category $ Cat $ of small categories, with respective homotopy categories associated to $ Cat $ are established.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubjpass	_	_
-2	$ is equivalent to a homotopy category of $	$ is equivalent to a homotopy category of $	PUNCT	NFP	_	4	nmod	_	_
-3	SSdownarrow	SSdownarrow	PROPN	NNP	Number=Sing	4	compound	_	_
-4	NI	NI	PROPN	NNP	Number=Sing	1	appos	_	_
-5	$ simplicial sets over the nerve $	$ simplicial sets over the nerve $	SYM	$	_	6	nmod	_	_
-6	NI	ni	NOUN	NN	Number=Sing	1	appos	_	_
-7	$ . Then their equivalences, by means of the nerve functor N : Cat - - &gt; SS $	$ . then their equivalences, by means of the nerve functor n : cat - - &gt; ss $	NOUN	NN	Number=Sing	6	nummod	_	_
-8	from	from	ADP	IN	_	1	prep	_	_
-9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
-10	category	category	NOUN	NN	Number=Sing	8	pobj	_	_
-11	$ Cat $	$ cat $	SYM	$	_	10	appos	_	_
-12	of	of	ADP	IN	_	10	prep	_	_
-13	small	small	ADJ	JJ	Degree=Pos	14	amod	_	_
-14	categories	category	NOUN	NNS	Number=Plur	12	pobj	_	SpaceAfter=No
-15	,	,	PUNCT	,	PunctType=Comm	1	punct	_	_
-16	with	with	ADP	IN	_	1	prep	_	_
-17	respective	respective	ADJ	JJ	Degree=Pos	19	amod	_	_
-18	homotopy	homotopy	NOUN	NN	Number=Sing	19	compound	_	_
-19	categories	category	NOUN	NNS	Number=Plur	16	pobj	_	_
-20	associated	associate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	19	acl	_	_
-21	to	to	ADP	IN	_	20	prep	_	_
-22	$ Cat $	$ cat $	SYM	$	_	21	pobj	_	_
-23	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	auxpass	_	_
-24	established	establish	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	ROOT	_	SpaceAfter=No
-25	.	.	PUNCT	.	PunctType=Peri	24	punct	_	SpaceAfter=No
-
 # sent_id = 229
 # sent_len = 13
 # text = Consequently, an equivariant simplicial version of the Whitehead Theorem is derived.
@@ -8192,6 +8090,7 @@
 
 # sent_id = 261
 # sent_len = 8
+# definition
 # text = Strict algebras are exponentiable and $ T_1 $ spaces.
 1	Strict	strict	ADJ	JJ	Degree=Pos	2	amod	_	_
 2	algebras	algebra	NOUN	NNS	Number=Plur	3	nsubj	_	_
@@ -9099,6 +8998,7 @@
 
 # sent_id = 288
 # sent_len = 20
+# definition
 # text = A von Neumann regular extension of a semiprime ring naturally defines a epimorphic extension in the category of rings.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
 2	von	von	PROPN	NNP	Number=Sing	5	compound	_	_
@@ -10429,6 +10329,7 @@
 
 # sent_id = 330
 # sent_len = 80
+# definition?
 # text = We show that every algebraically - central extension in a Maltsev variety - that is, every surjective homomorphism $ f : A longrightarrow B $ whose kernel - congruence is contained in the centre of $ A $ , as defined using the theory of commutators - is also a central extension in the sense of categorical Galois theory; this was previously known only for varieties of $ Omega $ - groups, while its converse is easily seen to hold for any congruence - modular variety.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	show	show	VERB	VBP	Tense=Pres|VerbForm=Fin	41	ccomp	_	_
@@ -10513,6 +10414,7 @@
 
 # sent_id = 331
 # sent_len = 32
+# definition
 # text = The notion of normal subobject having an intrinsic meaning in any protomodular category, we introduce the notion of normal functor, namely left exact conservative functor which reflects normal subobjects.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	notion	notion	NOUN	NN	Number=Sing	16	dep	_	_
@@ -10549,6 +10451,7 @@
 
 # sent_id = 332
 # sent_len = 44
+# definition
 # text = The point is that for the category $ {bf Gp} $ of groups the change of base functors, with respect to the fibration of pointed objects, are not only conservative (this is the definition of a protomodular category), but also normal.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	point	point	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -10958,6 +10861,7 @@
 
 # sent_id = 342
 # sent_len = 23
+# definition
 # text = A balanced coalgebroid is a $ {cal V}^{op} $ - category with extra structure ensuring that its category of representations is a balanced monoidal category.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	balanced	balanced	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -11562,6 +11466,7 @@
 
 # sent_id = 361
 # sent_len = 27
+# definition
 # text = Our discussion involves a particular subtopos of a given topos that can be described as the smallest subtopos closed under small coproducts in the including topos.
 1	Our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	poss	_	_
 2	discussion	discussion	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -11671,6 +11576,7 @@
 
 # sent_id = 364
 # sent_len = 30
+# definition
 # text = A category with finite products and finite coproducts is said to be distributive if the canonical map $ A times B + A times C to A times (B + C) $ is invertible for all objects $ A $ , $ B $ , and $ C $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	category	category	NOUN	NN	Number=Sing	10	nsubjpass	_	_
@@ -11705,6 +11611,7 @@
 
 # sent_id = 365
 # sent_len = 43
+# definition
 # text = Given a distributive category $ cal D $ , we describe a universal functor $ cal D to cal D_{ex} $ preserving finite products and finite coproducts, for which $ cal D_{ex} $ is extensive; that is, for all objects $ A $ and $ B $ the functor $ cal D_{ex}/A times cal D_{ex}/B to cal D_{ex}/(A + B) $ is an equivalence of categories.
 1	Given	give	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	prep	_	_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
@@ -12705,6 +12612,7 @@
 
 # sent_id = 398
 # sent_len = 23
+# definition
 # text = The latter is the homology of the quotient of the branching complex by the sub - complex generated by its thin elements.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	latter	latter	ADJ	JJ	Degree=Pos	3	nsubj	_	_
@@ -13033,6 +12941,7 @@
 
 # sent_id = 410
 # sent_len = 41
+# definition
 # text = We say that $ SPcal C $ has Mackey coreflections if there is a functor that assigns to each object $ A $ of $ SPcal C $ an object $ tau A $ that has the same group of characters as $ A $ and is the finest topology with that property.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	say	say	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
@@ -13258,6 +13167,7 @@
 
 # sent_id = 416
 # sent_len = 43
+# definition
 # text = We introduce the notion of an $ omega $ - graph being composable (meaning roughly that 'it has a unique composite'), and call an $ omega $ - category simple if it is freely generated by a composable $ omega $ - graph.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	introduce	introduce	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
@@ -13736,6 +13646,7 @@
 
 # sent_id = 430
 # sent_len = 32
+# definition
 # text = Generalized varieties are defined as free completions of small categories under sifted - colimits (analogously to finitely accessible categories which are free filtered - colimit completions of small categories).
 1	Generalized	generalized	ADJ	JJ	Degree=Pos	2	amod	_	_
 2	varieties	variety	NOUN	NNS	Number=Plur	4	nsubjpass	_	_

@@ -8,6 +8,7 @@ from spacy.language import Language
 def remove_tags(text):
     text = text.replace('#todo', '')
     text = text.replace('#write_proof', '')
+    text = text.replace('#', '')
     words = [word for word in text.split() if not word.startswith('https')]
     return ' '.join(words)
 

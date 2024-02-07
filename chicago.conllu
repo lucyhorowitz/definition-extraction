@@ -56,6 +56,7 @@
 
 # sent_id = 4
 # sent_len = 10
+# definition
 # text = Define a linear transformation $ text{Av}_rho:Vto V $ by the formula $ text{Av}_rho(v) = frac{1}{text{vol}(G)}int_G rho(g)vtext dg $ .
 1	Define	define	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
@@ -70,6 +71,7 @@
 
 # sent_id = 5
 # sent_len = 18
+# definition?
 # text = Heuristically, we can say that this is the barycenter of the $ G $ - orbit of $ v $ .
 1	Heuristically	heuristically	ADV	RB	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
@@ -111,6 +113,7 @@
 
 # sent_id = 7
 # sent_len = 21
+# definition
 # text = The star of $ x $ , denoted $ text{St}(x) $ , is the set of objects of the category of objects under $ x $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	star	star	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -136,6 +139,7 @@
 
 # sent_id = 8
 # sent_len = 13
+# definition?
 # text = That is, it is the set of morphisms with source $ x $ .
 1	That	that	ADV	RB	_	2	advmod	_	_
 2	is	is	ADV	RB	_	5	advmod	_	SpaceAfter=No
@@ -168,6 +172,7 @@
 
 # sent_id = 10
 # sent_len = 19
+# definition
 # text = A topological space $ X $ is a $ k $ - space if every compactly closed subspace of $ X $ is closed.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	topological	topological	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -300,6 +305,7 @@
 
 # sent_id = 16
 # sent_len = 28
+# definition
 # text = The elements $ {a_i}_{iin I} $ generate $ A $ if every element $ alphain A $ can be written (not necessarily uniquely) as a polynomial in the $ a_i $ with coefficients in $ mathbb k $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	elements	element	NOUN	NNS	Number=Plur	4	nsubj	_	_
@@ -346,6 +352,7 @@
 
 # sent_id = 18
 # sent_len = 25
+# definition
 # text = The point $ a in U $ is a local minimum of $ f $ if there is a neighborhood $ V $ of $ a $ such that for all $ x in V $ , $ f(a)leq f(x) $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	point	point	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -401,6 +408,7 @@
 
 # sent_id = 20
 # sent_len = 21
+# definition
 # text = The $ n $ th homology group $ text{Ker}(partial_{n})/text{Im}(partial_{n+1}) $ is denoted $ H_n(X) $ and is called the $ n $ th singular homology group of $ X $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 2	$ n $	$ n $	SYM	$	_	3	nmod	_	_
@@ -426,6 +434,7 @@
 
 # sent_id = 21
 # sent_len = 18
+# definition
 # text = A Borel space is a measurable space $ (X, B) $ given by the Borel σ - algebra on $ X $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	Borel	Borel	PROPN	NNP	Number=Sing	3	compound	_	_
@@ -445,26 +454,6 @@
 16	on	on	ADP	IN	_	9	prep	_	_
 17	$ X $	$ x $	SYM	$	_	16	pobj	_	_
 18	.	.	PUNCT	.	PunctType=Peri	4	punct	_	SpaceAfter=No
-
-# sent_id = 22
-# sent_len = 16
-# text = the aka on wikidata here is not correct Let $ v_0,dots,v_n $ be an n - simplex.
-1	the	the	PRON	DT	Definite=Def|PronType=Art	6	dep	_	_
-2	aka	aka	ADV	RB	_	3	advmod	_	_
-3	on	on	ADP	IN	_	6	prep	_	_
-4	wikidata	wikidata	NOUN	NN	Number=Sing	3	pobj	_	_
-5	here	here	ADV	RB	PronType=Dem	3	advmod	_	_
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-7	not	not	PART	RB	Polarity=Neg	6	neg	_	_
-8	correct	correct	ADJ	JJ	Degree=Pos	6	acomp	_	_
-9	Let	let	VERB	VB	VerbForm=Inf	6	xcomp	_	_
-10	$ v_0,dots,v_n $	$ v_0,dots,v_n $	SYM	$	_	11	nsubj	_	_
-11	be	be	AUX	VB	VerbForm=Inf	9	ccomp	_	_
-12	an	an	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
-13	n	n	NOUN	NN	Number=Sing	15	compound	_	_
-14	-	-	PUNCT	HYPH	PunctType=Dash	15	punct	_	_
-15	simplex	simplex	NOUN	NN	Number=Sing	11	attr	_	SpaceAfter=No
-16	.	.	PUNCT	.	PunctType=Peri	6	punct	_	SpaceAfter=No
 
 # sent_id = 23
 # sent_len = 30
@@ -502,6 +491,7 @@
 
 # sent_id = 24
 # sent_len = 12
+# definition
 # text = The $ t_i $ are called the barycentric coordinates of the point $ sum_i t_iv_i in v_0,dots,v_n $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	$ t_i $	$ t_i $	SYM	$	_	4	nsubjpass	_	_
@@ -555,6 +545,7 @@
 
 # sent_id = 27
 # sent_len = 3
+# definition
 # text = Define $ gcdot Y ={gcdot ymid yin Y} $ .
 1	Define	define	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 2	$ gcdot Y ={gcdot ymid yin Y} $	$ gcdot y ={gcdot ymid yin y} $	NOUN	NN	Number=Sing	1	dobj	_	_
@@ -562,6 +553,7 @@
 
 # sent_id = 28
 # sent_len = 25
+# definition
 # text = The topological space constructed in the proof that every group is a fundamental group is called the homotopy cofiber of the map $ p $ therein.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	topological	topological	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -591,6 +583,7 @@
 
 # sent_id = 29
 # sent_len = 32
+# definition
 # text = A subset $ E $ of the metric space $ (X,rho) $ is totally bounded if for all $ varepsilon > 0 $ , there exists a finite set $ {x_i}_{i=1}^n $ of points in $ X $ such that $ E subseteq bigcup_{i=1}^n B(x_i, varepsilon), $ where $ B(x_i, varepsilon) = {x in X mid rho(x_i,x)< varepsilon} $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	subset	subset	NOUN	NN	Number=Sing	11	nsubjpass	_	_
@@ -652,6 +645,7 @@
 
 # sent_id = 31
 # sent_len = 43
+# definition
 # text = The conjugate matrix transpose of a complex $ mtimes n $ matrix $ A $ is the $ n times m $ matrix $ A^* $ given by taking the usual matrix transpose $ A^T $ and then setting $ A^* $ to be the matrix whose entries are the complex conjugate of each entry of $ A^T $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	conjugate	conjugate	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -699,6 +693,7 @@
 
 # sent_id = 32
 # sent_len = 32
+# definition
 # text = An algebra over a field $ F $ is a vector space $ U $ over $ F $ with a bilinear binary operation $ Utimes U to U $ that is not necessarily associative but that follows left and right distributivity.
 1	An	an	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	algebra	algebra	NOUN	NNS	Number=Plur	7	nsubj	_	_
@@ -845,7 +840,7 @@
 27	.	.	PUNCT	.	PunctType=Peri	14	punct	_	SpaceAfter=No
 
 # sent_id = 38
-# sent_len = 13
+# sent_len = 13 
 # text = Since $ M $ is compact, finitely many of these $ V_p $ cover $ M $ .
 1	Since	since	SCONJ	IN	_	3	mark	_	_
 2	$ M $	$ m $	SYM	$	_	3	nsubj	_	_
@@ -913,6 +908,7 @@
 
 # sent_id = 43
 # sent_len = 40
+# definition
 # text = The Kronecker delta $ delta_{ij} $ is a function of the two variables $ i $ and $ j $ defined by $ delta_{ij} = } $ The width of a rectangle $ Q $ in $ mathbb R^n $ is the maximum of the lengths of the component intervals of $ Q $ : $ text{width}(Q)= max_{1leq i leq n} (b_i - a_i) $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	Kronecker	Kronecker	PROPN	NNP	Number=Sing	3	compound	_	_
@@ -957,6 +953,7 @@
 
 # sent_id = 44
 # sent_len = 23
+# definition
 # text = The degree of a polynomial is the highest power of the variable in its expression as a formal sum $ a_nx^n + cdots + a_0 $ for $ a_i in R $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	degree	degree	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -1004,6 +1001,7 @@
 
 # sent_id = 46
 # sent_len = 5
+# definition
 # text = Define $ f_S: mathbb R^n to mathbb R $ by $ f_S(x)=} $ .
 1	Define	define	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 2	$ f_S: mathbb R^n to mathbb R $	$ f_s: mathbb r^n to mathbb r $	SYM	$	_	1	dobj	_	_
@@ -1047,6 +1045,7 @@
 
 # sent_id = 49
 # sent_len = 35
+# definition
 # text = For $ A $ an $ mtimes n $ matrix and $ B $ an $ ntimes p $ matrix with entries $ (a_{ij}) $ and $ (b_{kell}) $ respectively, the product $ C=AB $ is the $ mtimes p $ matrix whose entries are given by $ c_{ij} = sum_{k=1}^n a_{ik}b_{kj} $ for $ 1 leq i leq m $ and $ 1 leq j leq m $ .
 1	For	for	ADP	IN	_	21	prep	_	_
 2	$ A $	$ a $	SYM	$	_	5	quantmod	_	_
@@ -1115,6 +1114,7 @@
 
 # sent_id = 51
 # sent_len = 20
+# definition
 # text = A graph $ X $ is connected if there is an edge path connecting every vertex of $ X $ to every other.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	graph	graph	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -1139,6 +1139,7 @@
 
 # sent_id = 52
 # sent_len = 25
+# definition
 # text = An automorphism of a Lie algebra $ L $ of the form $ text{exp}(text{ad} (x)) $ where $ text{ad} $ is the adjoint representation is called an inner automorphism of $ L $ .
 1	An	an	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	automorphism	automorphism	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -1197,6 +1198,7 @@
 
 # sent_id = 54
 # sent_len = 52
+# definition
 # text = A Mayer - Vietoris sequence is an exact sequence of the form $ cdotsto H_n(Acap B)to H_n(A)oplus H_n(B) to H_n(X) to H_{n - 1}(Acap B) tocdots $ $ to H_0(X) to 0 $ .The arrows between $ H_n(Acap B) $ and $ H_n(A)oplus H_n(B) $ are generally labeled $ Phi $ , the arrows between $ H_n(A)oplus H_n(B) $ and $ H_n(X) $ are generally labeled $ Psi $ , and the arrows between degrees (the boundary homomorphisms) are as usual denoted $ partial $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
 2	Mayer	Mayer	PROPN	NNP	Number=Sing	4	compound	_	_
@@ -1275,6 +1277,7 @@
 
 # sent_id = 56
 # sent_len = 27
+# definition
 # text = The direct sum of the $ M_i $ , written $ bigoplus_{iin I} M_i, $ is the set of all sequences $ {a_i}_{iin I} $ where $ a_i in M_i $ and $ a_i=0 $ for "cofinitely many" indices.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	direct	direct	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -1333,6 +1336,7 @@
 
 # sent_id = 59
 # sent_len = 65
+# definition
 # text = Then a proof of $ S_kin text{Form}(L) $ from a subset $ Gammasubseteq text{Form}(L) $ is a finite list of statements $ S_1,dots, S_k $ such that for all $ S_i $ , at least one of the following is true: (i) $ S_i in Gamma $ ; (ii) $ S_i $ is an axiom; (iii) there exist $ j,ell < i $ such that $ S_ell = S_j rightarrow S_i $ , i.e. that $ S_i $ "is there by" modus ponens.
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
@@ -1402,6 +1406,7 @@
 
 # sent_id = 60
 # sent_len = 16
+# definition
 # text = If there exists a proof from $ Gamma subseteq text{Form}(L) $ to $ phi in text{Form}(L) $ , we say that $ Gamma $ proves $ phi $
 1	If	if	SCONJ	IN	_	3	mark	_	_
 2	there	there	PRON	EX	_	3	expl	_	_
@@ -1431,6 +1436,7 @@
 
 # sent_id = 62
 # sent_len = 18
+# definition
 # text = A subset $ G $ of a topological space $ (X,mathcal T) $ is open if it is an element of $ mathcal T $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	subset	subset	NOUN	NN	Number=Sing	9	nsubj	_	_
@@ -1453,6 +1459,7 @@
 
 # sent_id = 63
 # sent_len = 27
+# definition
 # text = When $ X $ is a metric space, a subset $ A subset X $ is open if and only if for all $ a in A $ , there exists $ varepsilon > 0 $ such that $ B(a,varepsilon) = {x in X mid rho(a,x) < varepsilon}subset A $ .
 1	When	when	SCONJ	WRB	_	2	advmod	_	_
 2	$ X $	$ x $	SYM	$	_	3	nsubj	_	_
@@ -1484,6 +1491,7 @@
 
 # sent_id = 64
 # sent_len = 41
+# definition
 # text = A partition of a set $ X $ is a subset $ mathcal S $ of the power set $ mathcal P(X) $ such that (i) $ Ain mathcal S $ implies that $ Aneq emptyset $ ; (ii) For every $ xin X $ , there is a unique $ Ain mathcal S $ such that $ xin A $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	partition	partition	NOUN	NN	Number=Sing	7	nsubj	_	_
@@ -1569,6 +1577,7 @@
 
 # sent_id = 67
 # sent_len = 23
+# definition
 # text = Then the Lie algebra of $ G $ is the set of all matrices $ X in M_n(mathbb C) $ such that the matrix exponential $ e^{tX} in G $ for all $ t in mathbb R $ .
 1	Then	then	ADV	RB	PronType=Dem	4	advmod	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -1596,6 +1605,7 @@
 
 # sent_id = 68
 # sent_len = 13
+# definition
 # text = The Riemann sphere is a model of the extended complex plane $ mathbb C cup {infty} $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	Riemann	Riemann	PROPN	NNP	Number=Sing	3	compound	_	_
@@ -1622,6 +1632,7 @@
 
 # sent_id = 70
 # sent_len = 19
+# definition
 # text = A function $ f: Uto mathbb R^m $ is of class $ C^k $ if its derivatives $ Df, D^2f,dots, D^kf $ all exist and are continuous on $ U $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	function	function	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -1645,6 +1656,7 @@
 
 # sent_id = 71
 # sent_len = 26
+# definition
 # text = A multiplicative character on a topological group $ G $ is a homomorphism from $ G $ to the group of units of the field of complex numbers $ mathbb C^times $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	multiplicative	multiplicative	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -1687,6 +1699,7 @@
 
 # sent_id = 73
 # sent_len = 33
+# definition
 # text = Then a continuous function $ f:Xto Y $ is a homotopy equivalence if there exists a continuous function $ g:Yto X $ such that both $ fcirc g $ and $ gcirc f $ are homotopic to the respective identity functions on the domain.
 1	Then	then	ADV	RB	PronType=Dem	6	advmod	_	_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
@@ -1724,6 +1737,7 @@
 
 # sent_id = 74
 # sent_len = 19
+# definition
 # text = The spaces $ X $ and $ Y $ are said to be homotopy equivalent or to have the same homotopy type .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	spaces	space	NOUN	NNS	Number=Plur	7	nsubjpass	_	_
@@ -1758,6 +1772,7 @@
 
 # sent_id = 76
 # sent_len = 11
+# definition
 # text = A permutation is a bijection from a set to itself.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	permutation	permutation	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -1773,6 +1788,7 @@
 
 # sent_id = 77
 # sent_len = 22
+# definition
 # text = A lattice is a partially ordered set in which every pair of elements has a unique infimum and a unique supremum.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	lattice	lattice	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -1799,6 +1815,7 @@
 
 # sent_id = 78
 # sent_len = 25
+# definition
 # text = If $ (X, leq) $ is a lattice, we call the supremum of $ x $ and $ y $ the join of $ x $ and $ y $ and denote it $ xlor y $ .
 1	If	if	SCONJ	IN	_	3	mark	_	_
 2	$ (X, leq) $	$ (x, leq) $	SYM	$	_	3	nsubj	_	_
@@ -1828,6 +1845,7 @@
 
 # sent_id = 79
 # sent_len = 17
+# definition
 # text = Similarly, we call the infimum of $ x $ and $ y $ their meet and denote it $ xland y $ .
 1	Similarly	similarly	ADV	RB	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
@@ -1876,6 +1894,7 @@
 
 # sent_id = 82
 # sent_len = 47
+# definition
 # text = We can also define a lattice as a triple $ (L, lor,land) $ where $ L $ is a set and $ lor $ and $ land $ are two commutative, associative binary operations on $ L $ satisfying the following absorption laws for all $ a,b in L $ : (i) $ alor (aland b) = a $ ; (ii) $ aland (alor b) = a $ .
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
@@ -1996,6 +2015,7 @@
 
 # sent_id = 86
 # sent_len = 17
+# definition
 # text = A simplicial complex is a ∆ - complex whose simplices are uniquely determined by their vertices.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	simplicial	simplicial	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -2070,6 +2090,7 @@
 
 # sent_id = 89
 # sent_len = 20
+# definition
 # text = The complexification of $ V $ is the vector space $ V_mathbb C $ over the field $ mathbb C $ of complex numbers with basis $ {v_k}_{k=1}^n $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	complexification	complexification	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -2094,6 +2115,7 @@
 
 # sent_id = 90
 # sent_len = 23
+# definition
 # text = An open cover $ {U} $ of a topological space $ B $ is locally finite if every point $ bin B $ is in only finitely many $ U $ .
 1	An	an	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
 2	open	open	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -2138,6 +2160,7 @@
 
 # sent_id = 92
 # sent_len = 17
+# definition
 # text = A function $ f:Xto Y $ is $ G $ - equivariant if for all $ xin X $ and all $ gin G $ , $ f(gcdot x) = gcdot f(x) $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	function	function	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -2159,6 +2182,7 @@
 
 # sent_id = 93
 # sent_len = 17
+# definition
 # text = If the function $ f $ is bijective, then this function is called a $ G $ - isomorphism .
 1	If	if	SCONJ	IN	_	5	mark	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -2180,6 +2204,7 @@
 
 # sent_id = 94
 # sent_len = 13
+# definition
 # text = A binary operation $ cdot $ on a set $ A $ is a function $ Atimes Ato A $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	binary	binary	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -2197,6 +2222,7 @@
 
 # sent_id = 95
 # sent_len = 33
+# definition
 # text = A representation $ rho $ of a group $ G $ is called completely reducible or is said to have the complete reducibility property if it can be written as a direct sum of irreducible representations.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	representation	representation	NOUN	NN	Number=Sing	9	nsubjpass	_	_
@@ -2306,6 +2332,7 @@
 
 # sent_id = 98
 # sent_len = 20
+# definition
 # text = Define $ int_X fdmu = supleft{int_X sdmu mid 0leq sleq f, s text{ simple}right} $ where the supremum is taken over the Lebesgue integrals of nonnegative simple functions $ s $ less than $ f $ .
 1	Define	define	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 2	$ int_X fdmu = supleft{int_X sdmu mid 0leq sleq f, s text{ simple}right} $	$ int_x fdmu = supleft{int_x sdmu mid 0leq sleq f, s text{ simple}right} $	NOUN	NN	Number=Sing	1	dobj	_	_
@@ -2405,6 +2432,7 @@
 
 # sent_id = 103
 # sent_len = 7
+# definition
 # text = In this case, define $ int f dmu = int f^+dmu - int f^ - dmu $ .
 1	In	in	ADP	IN	_	5	prep	_	_
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
@@ -2416,6 +2444,7 @@
 
 # sent_id = 104
 # sent_len = 9
+# definition
 # text = If $ int|f|dmu < infty $ , then $ f $ is Lebesgue integrable .
 1	If	if	SCONJ	IN	_	2	mark	_	_
 2	$ int|f|dmu < infty $	$ int|f|dmu < infty $	SYM	$	_	6	nsubj	_	_
@@ -2429,6 +2458,7 @@
 
 # sent_id = 105
 # sent_len = 32
+# definition
 # text = A sequence of homomorphisms $ cdots to A_{n+1}to A_n to A_{n - 1}to cdots $ where the arrow between $ A_{k+1} $ and $ A_{k} $ is labelled $ alpha_{k+1} $ is an exact sequence if the kernel of $ alpha_k $ is equal to the image of $ alpha_{k+1} $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	sequence	sequence	NOUN	NN	Number=Sing	16	nsubj	_	_
@@ -2475,6 +2505,7 @@
 
 # sent_id = 107
 # sent_len = 16
+# definition
 # text = Equivalently, an exact sequence is a chain complex whose homology groups are all trivial.
 1	Equivalently	equivalently	ADV	RB	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
@@ -2495,6 +2526,7 @@
 
 # sent_id = 108
 # sent_len = 17
+# definition
 # text = A binary operation $ cdot $ on the set $ A $ is commutative if for all $ a,bin A $ , $ ab = ba $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	binary	binary	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -2516,6 +2548,7 @@
 
 # sent_id = 109
 # sent_len = 12
+# definition
 # text = A Lie group is a group that is also a manifold.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	Lie	lie	NOUN	NN	Number=Sing	3	compound	_	_
@@ -2545,6 +2578,7 @@
 
 # sent_id = 111
 # sent_len = 33
+# definition
 # text = The infimum of this subset, if it exists, is a lower bound $ a $ of $ S $ in $ X $ such that for all lower bounds $ y $ of $ S $ in $ X $ , $ yleq a $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	infimum	infimum	NOUN	NN	Number=Sing	11	nsubj	_	_
@@ -2582,6 +2616,7 @@
 
 # sent_id = 112
 # sent_len = 11
+# definition
 # text = That is, the infimum is the greatest lower bound.
 1	That	that	ADV	RB	_	2	advmod	_	_
 2	is	is	ADV	RB	_	6	advmod	_	SpaceAfter=No
@@ -2607,6 +2642,7 @@
 
 # sent_id = 114
 # sent_len = 45
+# definition
 # text = An absolute value on $ F $ is a map $ |cdot|:Fto mathbb R $ such that (i) $ |x| geq 0 $ for all $ xin F $ ; (ii) $ |x| = 0 $ if and only if $ x=0 $ ; (iii) $ |x+y| leq |x| + |y| $ for all $ x,yin F $ ; (iv) $ |xcdot y| = |x|cdot |y| $ for all $ x,yin F $ .
 1	An	an	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	absolute	absolute	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -2699,6 +2735,7 @@
 
 # sent_id = 117
 # sent_len = 15
+# definition
 # text = If $ f:Mto N $ is a module homomorphism, the kernel of $ f $ is the set $ {min Mmid f(m) = e_N}=text{ker}(f)subseteq M $
 1	If	if	SCONJ	IN	_	3	mark	_	_
 2	$ f:Mto N $	$ f:mto n $	SYM	$	_	3	nsubj	_	_
@@ -2718,6 +2755,7 @@
 
 # sent_id = 118
 # sent_len = 23
+# definition
 # text = The compact symplectic group $ text{Sp}(n) $ is the group intersection of the complex symplectic group $ text{Sp}(2n,mathbb C) $ and the unitary group $ text{U}(2n) $ : $ text{Sp}(n) = text{Sp}(2n,mathbb C)captext{U}(2n) $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	compact	compact	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -2789,6 +2827,7 @@
 
 # sent_id = 122
 # sent_len = 11
+# definition
 # text = The $ t_i, t_i+1 $ are the subintervals of $ a,b $ given by $ P $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	$ t_i, t_i+1 $	$ t_i, t_i+1 $	SYM	$	_	3	nsubj	_	_
@@ -2804,6 +2843,7 @@
 
 # sent_id = 123
 # sent_len = 39
+# definition
 # text = The quadratic integers are algebraic integers of degree (ii) Equivalently, they are solutions to monic, integer - valued polynomials of degree (ii) That is, solutions to equations of the form $ x^2+bx+c=0 $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	quadratic	quadratic	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -2927,6 +2967,7 @@
 
 # sent_id = 129
 # sent_len = 12
+# definition
 # text = Then the set $ S = {(x,t)mid xin C, phi(x) leq t leq psi(x)} subset mathbb R^{n - 1}times mathbb R $ is called a simple region in $ mathbb R^n $ .
 1	Then	then	ADV	RB	PronType=Dem	6	advmod	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
@@ -2943,6 +2984,7 @@
 
 # sent_id = 130
 # sent_len = 27
+# definition
 # text = A point $ x in X $ a topological space is a limit point of the subset $ Asubset X $ if it is the limit of some sequence of elements of $ A $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	point	point	NOUN	NN	Number=Sing	7	nsubj	_	_
@@ -2994,6 +3036,7 @@
 
 # sent_id = 132
 # sent_len = 32
+# definition
 # text = The sequence converges almost uniformly to $ f $ if for all $ varepsilon > 0 $ , there exists a set $ Ain Sigma $ of measure less than $ varepsilon $ such that $ f_n $ converges uniformly to $ f $ on $ Xsetminus A $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	sequence	sequence	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -3030,6 +3073,7 @@
 
 # sent_id = 133
 # sent_len = 20
+# definition
 # text = A face of an n - simplex $ v_0,dots,v_n $ is the subsimplex with vertices any nonempty subset of the $ v_i $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	face	face	NOUN	NN	Number=Sing	9	nsubj	_	_
@@ -3084,6 +3128,7 @@
 
 # sent_id = 136
 # sent_len = 18
+# definition
 # text = The Lebesgue integral of the characteristic function of a measurable set $ A in Sigma $ is defined to be $ int chi_Admu = mu(A) $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	Lebesgue	Lebesgue	PROPN	NNP	Number=Sing	14	nsubjpass	_	_
@@ -3120,6 +3165,7 @@
 
 # sent_id = 138
 # sent_len = 23
+# definition
 # text = The $ G $ - invariant elements of $ V $ is $ V^G = {vin Vmid rho(g)v=v}, $ the set of vectors in $ V $ left unchanged by the action of $ G $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 2	$ G $	$ g $	SYM	$	_	4	advmod	_	_
@@ -3157,6 +3203,7 @@
 
 # sent_id = 140
 # sent_len = 20
+# definition
 # text = A morphism $ fin text{Hom}_C(A,B) $ is a monomorphism if for all objects $ Z $ of $ C $ and all morphisms $ alpha,betain text{Hom}_C(Z,A) $ , $ fcirc alpha = fcirc betaimplies alpha = beta $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	morphism	morphism	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -3192,6 +3239,7 @@
 
 # sent_id = 142
 # sent_len = 16
+# definition
 # text = A vector subspace $ K $ of $ L $ is a subalgebra of $ L $ if $ xy in K $ whenever $ x,y in K $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	vector	vector	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -3225,6 +3273,7 @@
 
 # sent_id = 144
 # sent_len = 21
+# definition
 # text = A module over a ring $ M $ is semisimple if it may be written as the direct sum of simple modules.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	module	module	NOUN	NN	Number=Sing	7	nsubj	_	_
@@ -3250,6 +3299,7 @@
 
 # sent_id = 145
 # sent_len = 64
+# definition
 # text = A vector space $ V $ over the field $ F $ is a set together with two operations "addition" ( $ +: Vtimes V to V $ ) and "scalar multiplication" ( $ cdot: Ftimes V to V $ ) satisfying the following eight axioms: (i) Addition is associative; (ii) Addition is commutative; (iii) There exists a vector $ 0 in V $ such that $ 0 + v = v $ for all $ v in V $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	vector	vector	NOUN	NN	Number=Sing	3	compound	_	_
@@ -3444,6 +3494,7 @@
 
 # sent_id = 153
 # sent_len = 32
+# definition
 # text = A function $ f:Dto mathbb R $ is harmonic if for all $ zin D $ and every $ varepsilon > 0 $ with $ text{dist}(z,partial D) > varepsilon $ , then $ f(z) = MV(f,z,varepsilon) $ where $ partial D $ denotes the boundary of $ D $ and $ MV $ denotes the circular mean value.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	function	function	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -3480,6 +3531,7 @@
 
 # sent_id = 154
 # sent_len = 13
+# definition
 # text = Equivalently, a function $ f $ is harmonic if its Laplacian is 0.
 1	Equivalently	equivalently	ADV	RB	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
@@ -3511,6 +3563,7 @@
 
 # sent_id = 156
 # sent_len = 25
+# definition
 # text = The point $ a in U $ is a local maximum of $ f $ if there is a neighborhood $ V $ of $ a $ such that for all $ x in V $ , $ f(a)geq f(x) $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	point	point	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -3540,6 +3593,7 @@
 
 # sent_id = 157
 # sent_len = 27
+# definition
 # text = Euler's totient function , written $ phi(n) $ , is a function $ mathbb Ntomathbb N $ that gives the number of integers less than $ n $ that are coprime to $ n $ .
 1	Euler	Euler	PROPN	NNP	Number=Sing	4	poss	_	SpaceAfter=No
 2	's	's	PART	POS	_	1	case	_	_
@@ -3604,6 +3658,7 @@
 
 # sent_id = 159
 # sent_len = 45
+# definition
 # text = A map of coverings of groupoids (of $ mathcal B $ , specifically!) is a functor $ g:mathcal Etomathcal E' $ such that the following diagram of functors commutes: The transpose of an $ mtimes n $ matrix $ A = (a_{ij}) $ is the $ ntimes m $ matrix $ A^T $ whose entries are given by $ a_{ji} $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	map	map	NOUN	NN	Number=Sing	14	nsubj	_	_
@@ -3666,6 +3721,7 @@
 
 # sent_id = 161
 # sent_len = 23
+# definition
 # text = The wedge sum $ Xvee Y $ is the quotient of the disjoint union $ Xamalg Y $ given by identifying $ x_0 $ and $ y_0 $ to a single point.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	wedge	wedge	NOUN	NN	Number=Sing	3	compound	_	_
@@ -3693,6 +3749,7 @@
 
 # sent_id = 162
 # sent_len = 40
+# definition
 # text = A group is a set $ G $ together with a binary operation $ cdot:Gtimes G to G $ satisfying the following properties: (i) $ cdot $ is associative; (ii) there exists an identity element $ e in G $ such that $ gcdot e = g = ecdot g $ for all $ g in G $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	group	group	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -3861,6 +3918,7 @@
 
 # sent_id = 167
 # sent_len = 8
+# definition
 # text = A function of class $ C^{infty} $ is smooth .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	function	function	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -3891,6 +3949,7 @@
 
 # sent_id = 169
 # sent_len = 15
+# definition
 # text = The circle group , usually denoted $ mathbb T $ , is the complex $ 1 $ - torus.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	circle	circle	NOUN	NN	Number=Sing	3	compound	_	_
@@ -3910,6 +3969,7 @@
 
 # sent_id = 170
 # sent_len = 16
+# definition
 # text = Equivalently, it is the multiplicative group of complex numbers with complex absolute value $ 1 $ .
 1	Equivalently	equivalently	ADV	RB	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
@@ -3941,6 +4001,7 @@
 
 # sent_id = 172
 # sent_len = 13
+# definition
 # text = The essential supremum $ alpha $ is the largest real number such that $ mu({xmid f(x) < alpha}) = 0 $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	essential	essential	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -3977,6 +4038,7 @@
 
 # sent_id = 174
 # sent_len = 18
+# definition
 # text = The reduced cone on $ X $ is the smash product $ CX = Xwedge I $ where $ I $ has as its basepoint $ 1 $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	reduced	reduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	amod	_	_
@@ -4030,6 +4092,7 @@
 
 # sent_id = 177
 # sent_len = 15
+# definition
 # text = A rectangle $ Q $ in $ mathbb R^n $ is a product of intervals in $ mathbb R $ : $ Q = a_1,b_1times cdotstimes a_n,b_n $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	rectangle	rectangle	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -4060,6 +4123,7 @@
 
 # sent_id = 179
 # sent_len = 27
+# definition
 # text = An open cover of $ A $ is a collection of open subsets of $ X $ such that $ A $ lies in the union of the elements of the collection.
 1	An	an	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	open	open	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -4091,6 +4155,7 @@
 
 # sent_id = 180
 # sent_len = 18
+# definition
 # text = That is, an open covering is a collection $ {G_lambda}_{lambdainLambda} $ of subsets of $ X $ such that $ Asubset bigcuplimits_{lambdainLambda} G_lambda $ .
 1	That	that	ADV	RB	_	2	advmod	_	_
 2	is	is	ADV	RB	_	7	advmod	_	SpaceAfter=No
@@ -4125,6 +4190,7 @@
 
 # sent_id = 182
 # sent_len = 29
+# definition
 # text = The boundary points of $ M $ are the points $ pin M $ for which there exists a chart $ (U,phi) $ such that $ phi(p) in partial H^m $ , the boundary of the closed half - space.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	boundary	boundary	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -4158,6 +4224,7 @@
 
 # sent_id = 183
 # sent_len = 16
+# definition
 # text = A function $ f:Ato B $ is surjective if for all $ b in B $ there exists $ ain A $ such that $ f(a)=b $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	function	function	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -4178,6 +4245,7 @@
 
 # sent_id = 184
 # sent_len = 17
+# definition
 # text = An element $ x $ of a ring $ R $ is nilpotent if there exists $ n in mathbb Z $ such that $ x^n =0 $ .
 1	An	an	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	element	element	NOUN	NN	Number=Sing	8	nsubj	_	_
@@ -4199,6 +4267,7 @@
 
 # sent_id = 185
 # sent_len = 10
+# definition
 # text = A loop is a path $ p $ such that $ p(0) = p(1) $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	loop	loop	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -4213,6 +4282,7 @@
 
 # sent_id = 186
 # sent_len = 10
+# definition
 # text = This point is called the basepoint of the loop.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
 2	point	point	NOUN	NN	Number=Sing	4	nsubjpass	_	_
@@ -4227,6 +4297,7 @@
 
 # sent_id = 187
 # sent_len = 17
+# definition
 # text = A topological space is a set $ X $ together with a collection $ T $ of subsets of $ X $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	topological	topological	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -4248,6 +4319,7 @@
 
 # sent_id = 188
 # sent_len = 45
+# definition
 # text = The elements of $ T $ are called the open sets and they satisfy the following properties: (i) $ Xin T $ and $ emptyset in T $ ; (ii) Arbitrary unions of open sets are open; (iii) Finite intersections of open sets are open.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	elements	element	NOUN	NNS	Number=Plur	6	nsubjpass	_	_
@@ -4297,6 +4369,7 @@
 
 # sent_id = 189
 # sent_len = 11
+# definition
 # text = The choice of $ T $ is called a topology on $ X $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	choice	choice	NOUN	NN	Number=Sing	6	nsubjpass	_	_
@@ -4324,6 +4397,7 @@
 
 # sent_id = 191
 # sent_len = 20
+# definition
 # text = The exponent of $ A $ is the least common multiple of the orders of all of the elements of $ A $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	exponent	exponent	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -4388,6 +4462,7 @@
 
 # sent_id = 193
 # sent_len = 32
+# definition
 # text = A measure $ mu $ on $ Sigma $ is locally finite if for all $ p in X $ , there exists an open neighborhood $ N_p $ of $ p $ such that the $ mu $ - measure of $ N_p $ is finite.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	measure	measure	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -4447,6 +4522,7 @@
 
 # sent_id = 196
 # sent_len = 20
+# definition
 # text = A left ideal $ I $ of $ A $ is a subalgebra of $ A $ such that $ axin I $ for all $ ain A $ , $ xin I $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	left	left	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -4578,6 +4654,7 @@
 
 # sent_id = 201
 # sent_len = 30
+# definition
 # text = A neighborhood of a point $ x $ in a topological space $ X $ is a subset $ N $ of $ X $ containing $ x $ which contains an open set $ Usubseteq N $ that also contains $ x $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	neighborhood	neighborhood	NOUN	NN	Number=Sing	12	nsubj	_	_
@@ -4622,6 +4699,7 @@
 
 # sent_id = 203
 # sent_len = 19
+# definition
 # text = A nonzero element $ rin R $ is a zero divisor if there exists nonzer $ sin R $ such that $ sr = 0 $ or $ rs = 0 $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
 2	nonzero	nonzero	NOUN	NN	Number=Sing	3	compound	_	_
@@ -4645,6 +4723,7 @@
 
 # sent_id = 204
 # sent_len = 33
+# definition
 # text = A subspace $ A $ of a topological space $ X $ is compactly closed if the inverse image $ g^{ - 1}(A) $ is closed in $ K $ for any map $ g:Kto X $ from a compact Hausdorff space $ K $ into $ X $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	subspace	subspace	NOUN	NN	Number=Sing	11	nsubjpass	_	_
@@ -4693,6 +4772,7 @@
 
 # sent_id = 206
 # sent_len = 28
+# definition
 # text = Its derived series is given by the derived algebras $ } $ The transition function of two charts $ (U,phi) $ and $ (V, psi) $ on a manifold $ M $ is the composition $ psi circ phi^{ - 1}: phi(Ucap V)to psi(Ucap V) $ .
 1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	poss	_	_
 2	derived	derive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	amod	_	_
@@ -4735,6 +4815,7 @@
 
 # sent_id = 208
 # sent_len = 39
+# definition
 # text = The lower central series for $ G $ is defined as follows: Let $ G_0=G $ , let $ G_1 = G,G $ , and for each $ i geq 1 $ , define $ G_{i+1} = G,G_{i} $ where the bracket notation denotes a particular subgroup of the commutator subgroup: $ G,H = {ghg^{ - 1}h^{ - 1}mid gin G, hin H} $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	lower	low	ADJ	JJR	Degree=Cmp	4	amod	_	_
@@ -4795,6 +4876,7 @@
 
 # sent_id = 210
 # sent_len = 19
+# definition
 # text = A norm $ |cdot | : Ato mathbb R $ on an algebra $ A $ is called multiplicative if $ |1_A| = 1 $ and for all $ a,bin A $ , $ |ab| leq |a|cdot |b| $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	norm	norm	NOUN	NN	Number=Sing	3	compound	_	_
@@ -4818,6 +4900,7 @@
 
 # sent_id = 211
 # sent_len = 32
+# definition
 # text = A topological space $ X $ is semi - locally simply connected if every point $ bin B $ has a neighborhood $ U $ such that the map $ pi_1(U,b)to pi_1(B,b) $ between fundamental groups is the trivial group homomorphism.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	topological	topological	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -4902,6 +4985,7 @@
 
 # sent_id = 215
 # sent_len = 16
+# definition
 # text = The normalizer of a subspace $ U $ of a vector space $ V $ is given by $ N_V(U) = {xin Vmid x,Usubset U} $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	normalizer	normalizer	NOUN	NN	Number=Sing	13	nsubjpass	_	_
@@ -4958,6 +5042,7 @@
 
 # sent_id = 218
 # sent_len = 17
+# definition
 # text = Then $ T $ is of type strong $ (p,q) $ if there exists a constant $ c > 0 $ such that $ ||Tf||_q leq c||f||_p $ .
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
 2	$ T $	$ t $	SYM	$	_	3	nsubj	_	_
@@ -5017,6 +5102,7 @@
 
 # sent_id = 221
 # sent_len = 16
+# definition
 # text = A left inverse of $ f $ is a function $ g:Bto A $ such that $ gcirc f(a) = a $ for all $ a in A $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	left	left	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -5037,6 +5123,7 @@
 
 # sent_id = 222
 # sent_len = 16
+# definition
 # text = A right inverse of $ f $ is a function $ g:Bto A $ such that $ fcirc g(b) = b $ for all $ bin B $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	right	right	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -5057,6 +5144,7 @@
 
 # sent_id = 223
 # sent_len = 20
+# definition
 # text = An inverse of $ f $ is a function $ f^{ - 1} $ that is both a left and a right inverse of $ f $ .
 1	An	an	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	inverse	inverse	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -5081,6 +5169,7 @@
 
 # sent_id = 224
 # sent_len = 21
+# definition
 # text = A singular n - simplex is a map $ sigma: Delta^n to X $ from the standard n - simplex to a topological space $ X $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
 2	singular	singular	ADJ	JJ	Degree=Pos	5	amod	_	_
@@ -5106,6 +5195,7 @@
 
 # sent_id = 225
 # sent_len = 24
+# definition
 # text = The opposite category $ mathcal C^{text{op}} $ of a category $ mathcal C $ is a category consisting of the same objects as $ mathcal C $ , but with morphisms $ mathcal C^text{op}(A,B) = mathcal C(B,A) $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	opposite	opposite	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -5144,6 +5234,7 @@
 
 # sent_id = 227
 # sent_len = 15
+# definition
 # text = The induced homomorphism $ f_*: tilde H_n(S^n)to tilde H_n(S^n) $ is a homomorphism from an infinite cyclic group to itself.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	induced	induced	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -5184,6 +5275,7 @@
 
 # sent_id = 229
 # sent_len = 9
+# definition
 # text = The integer $ d $ is the degree of $ f $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	integer	integer	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -5214,6 +5306,7 @@
 
 # sent_id = 231
 # sent_len = 28
+# definition
 # text = The colimit of $ F $ , written $ text{colim}F $ , is an object of $ mathcal C $ together with a morphism of diagrams $ iota: Fto underline{text{colim} F} $ that is initial among all such morphisms.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	colimit	colimit	NOUN	NN	Number=Sing	9	nsubj	_	_
@@ -5331,6 +5424,7 @@
 
 # sent_id = 235
 # sent_len = 11
+# definition
 # text = A linear transformation $ T:Vto V $ is self - adjoint if $ T^*=T $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	linear	linear	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -5346,6 +5440,7 @@
 
 # sent_id = 236
 # sent_len = 25
+# definition
 # text = The inverse of an $ ntimes n $ matrix $ A $ is an $ ntimes n $ matrix $ A^{ - 1} $ such that the products $ AA^{ - 1} = A^{ - 1}A = I_n $ where $ I_n $ is the $ ntimes n $ identity matrix.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	inverse	inverse	NOUN	NN	Number=Sing	8	nsubj	_	_
@@ -5382,6 +5477,7 @@
 
 # sent_id = 238
 # sent_len = 37
+# definition
 # text = Then $ M $ is an embedded $ m $ - dimensional manifold if for all $ xin M $ , there exists a neighborhood $ U subsetmathbb R^n $ of $ x $ and a smooth function $ f:Utomathbb R^{n - m} $ such that $ Mcap U = f^{ - 1}(0) $ and $ Df(y):mathbb R^ntomathbb R^{n - m} $ is surjective for all $ y in U $ .
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
 2	$ M $	$ m $	SYM	$	_	3	nsubj	_	_
@@ -5423,6 +5519,7 @@
 
 # sent_id = 239
 # sent_len = 21
+# definition
 # text = An equivalence relation $ sim $ on a set $ X $ is a binary relation that is reflexive, symmetric, and transitive.
 1	An	an	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	equivalence	equivalence	NOUN	NN	Number=Sing	3	compound	_	_
@@ -5485,6 +5582,7 @@
 
 # sent_id = 241
 # sent_len = 34
+# definition
 # text = A subset $ A $ of a topological space $ X $ has the Baire property if there exists an open set $ G $ such that the symmetric difference of $ A $ and $ G $ ( $ A triangle G $ ) is meager.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	subset	subset	NOUN	NN	Number=Sing	9	nsubj	_	_
@@ -5523,6 +5621,7 @@
 
 # sent_id = 242
 # sent_len = 20
+# definition
 # text = A field $ k $ is algebraically closed if every non - constant polynomial in $ kt $ has a root in $ k $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	field	field	NOUN	NN	Number=Sing	6	nsubjpass	_	_
@@ -5558,6 +5657,7 @@
 
 # sent_id = 244
 # sent_len = 64
+# definition
 # text = A pair of compactly generated topological spaces $ (X,A) $ (where $ A $ is a subspace of $ X $ ) is called an NDR pair (stands for neighborhood deformation retract pair) if there exists a map $ u:Xto I $ such that the fiber $ u^{ - 1}(0) = A $ and if there exists a homotopy $ h:Xtimes I to X $ such that $ h_0 = text{id} $ , $ h(a,t) = a $ for all $ ain A $ and $ tin I $ , and $ h(x,q) in A $ if $ u(x)<1 $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	pair	pair	NOUN	NN	Number=Sing	19	nsubjpass	_	_
@@ -5626,6 +5726,7 @@
 
 # sent_id = 245
 # sent_len = 25
+# definition
 # text = Such a pair is a DR pair if $ u(x) < 1 $ for all $ xin X $ , and this implies that $ A $ is a deformation retract of $ X $ .
 1	Such	such	DET	PDT	_	3	predet	_	_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
@@ -5709,6 +5810,7 @@
 
 # sent_id = 247
 # sent_len = 13
+# definition
 # text = Let $ G $ act diagonally on $ Xtimes Y $ : that is, define $ g.(x,y) = (g.x,g.y) $ .
 1	Let	let	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 2	$ G $	$ g $	SYM	$	_	1	prep	_	_
@@ -5726,6 +5828,7 @@
 
 # sent_id = 248
 # sent_len = 6
+# definition
 # text = Then define $ g^*f $ by $ text{Graph}()g^*f = g(text{Graph}(f)) $ .
 1	Then	then	ADV	RB	PronType=Dem	2	advmod	_	_
 2	define	define	VERB	VB	VerbForm=Inf	0	ROOT	_	_
@@ -5763,6 +5866,7 @@
 
 # sent_id = 251
 # sent_len = 21
+# definition
 # text = The general linear group $ GL(n) $ or $ GL(V) $ is the group of automorphisms of an $ n $ - dimensional vector space $ V $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	general	general	ADJ	JJ	Degree=Pos	4	amod	_	_
@@ -5788,6 +5892,7 @@
 
 # sent_id = 252
 # sent_len = 11
+# definition?
 # text = Equivalently, it is the group of invertible $ ntimes n $ matrices.
 1	Equivalently	equivalently	ADV	RB	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
@@ -5803,6 +5908,7 @@
 
 # sent_id = 253
 # sent_len = 14
+# definition
 # text = A metric space is separable if it contains a countable, dense subset.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	metric	metric	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -5838,6 +5944,7 @@
 
 # sent_id = 255
 # sent_len = 16
+# definition
 # text = A model for $ Gamma $ is a truth function $ t:text{Form}(L) to {0,1} $ such that $ t(gamma) = 1 $ for all $ gammain Gamma $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	model	model	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -5858,6 +5965,7 @@
 
 # sent_id = 256
 # sent_len = 20
+# definition
 # text = For any $ phi in text{Form}(L) $ , we say that $ Gamma $ models $ phi $ if for every model $ t $ of $ Gamma $ , $ t(phi) = 1 $ .
 1	For	for	ADP	IN	_	6	prep	_	_
 2	any	any	DET	DT	_	3	det	_	_
@@ -5882,6 +5990,7 @@
 
 # sent_id = 257
 # sent_len = 23
+# definition
 # text = The volume of a rectangle $ Q $ in $ mathbb R^n $ is the product of the lengths of the component intervals of $ Q $ : $ text{vol}(Q) = (b_1 - a_1)cdots(b_n - a_n) $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	volume	volume	NOUN	NN	Number=Sing	9	nsubj	_	_
@@ -5909,6 +6018,7 @@
 
 # sent_id = 258
 # sent_len = 16
+# definition
 # text = The symmetric differential basis is the differential basis consisting of balls centered around each $ x in mathbb R^n $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	symmetric	symmetric	ADJ	JJ	Degree=Pos	4	amod	_	_
@@ -5929,6 +6039,7 @@
 
 # sent_id = 259
 # sent_len = 17
+# definition
 # text = The equivalence classes with respect to the connection equivalence relation are called connected components of $ X $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	equivalence	equivalence	NOUN	NN	Number=Sing	3	compound	_	_
@@ -5966,6 +6077,7 @@
 
 # sent_id = 261
 # sent_len = 13
+# definition
 # text = The positive variation of $ mu $ is the function $ pi $ given by $ pi(A) = sup_{Ssubset A} mu(S) $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	positive	positive	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -6099,6 +6211,7 @@
 
 # sent_id = 267
 # sent_len = 15
+# definition
 # text = The homology groups of this chain complex are called the relative homology groups $ H_n(X,A) $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	homology	homology	NOUN	NN	Number=Sing	3	compound	_	_
@@ -6118,6 +6231,7 @@
 
 # sent_id = 268
 # sent_len = 20
+# definition
 # text = A partition $ P $ of a closed interval $ a,b $ is a finite collection of points in $ a,b $ such that $ a,b in P $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	partition	partition	NOUN	NN	Number=Sing	9	nsubj	_	_
@@ -6142,6 +6256,7 @@
 
 # sent_id = 269
 # sent_len = 26
+# definition
 # text = More generally, a partition $ P $ of a rectangle $ Q $ in $ mathbb R^n $ is a collection $ P = {P_i}_{i=1}^n $ of partitions of the component intervals $ a_i,b_i $ of $ Q $ .
 1	More	more	ADV	RBR	Degree=Cmp	2	advmod	_	_
 2	generally	generally	ADV	RB	_	13	advmod	_	SpaceAfter=No
@@ -6172,6 +6287,7 @@
 
 # sent_id = 270
 # sent_len = 29
+# definition
 # text = The Stirling numbers of the second kind count the number of ways to partition a set of $ n $ distinct objects into $ k $ indistinct sets, leaving none empty.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	Stirling	Stirling	PROPN	NNP	Number=Sing	3	compound	_	_
@@ -6243,6 +6359,7 @@
 
 # sent_id = 273
 # sent_len = 35
+# definition
 # text = The Choquet game is a topological game played A topological $ m $ - dimensional manifold with boundary is a topological space $ M $ such that (i) for all $ p in M $ , there exists an open neighborhood
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	Choquet	Choquet	PROPN	NNP	Number=Sing	3	compound	_	_
@@ -6329,6 +6446,7 @@
 
 # sent_id = 276
 # sent_len = 53
+# definition
 # text = The $ n $ th reduced homology group of $ X $ , denoted $ tilde H_n(X) $ , is the $ n $ th homology group of the chain complex $ cdots to C_2(X) to C_1(x) to C_0(X) to mathbb Zto 0 $ where the maps between the groups $ C_i $ of n - chains are the usual boundary homomorphisms and the map (call it $ varepsilon $ ) $ C_0(X)to mathbb Z $ is given by $ varepsilonleft(sum_i n_isigma_iright) = sum_i n_i $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 2	$ n $	$ n $	SYM	$	_	3	nmod	_	_
@@ -6425,6 +6543,7 @@
 
 # sent_id = 279
 # sent_len = 43
+# definition
 # text = A left $ R $ - module $ M $ is an abelian group $ (M, +) $ and another operation $ cdot : Rtimes M to M $ such that fior all $ r,sin R $ and $ x,yin M $ , (i) $ rcdot (x+y) = rcdot x + rcdot y $ ; (ii) $ (r+s)dot x = rcdot x + scdot x $ ; (iii) $ (rs)cdot x = rcdot (scdot x) $ ; (iv) $ 1cdot x = x $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
 2	left	leave	VERB	VBD	Tense=Past|VerbForm=Fin	6	amod	_	_
@@ -6472,6 +6591,7 @@
 
 # sent_id = 280
 # sent_len = 8
+# definition
 # text = The operation $ cdot $ is called scalar multiplication .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	operation	operation	NOUN	NN	Number=Sing	5	nsubjpass	_	_
@@ -6497,6 +6617,7 @@
 
 # sent_id = 282
 # sent_len = 14
+# definition
 # text = For $ x in X $ , the distance from $ x $ to $ K $ is given by the infimum
 1	For	for	ADP	IN	_	11	prep	_	_
 2	$ x in X $	$ x in x $	SYM	$	_	1	pobj	_	_
@@ -6521,6 +6642,7 @@
 
 # sent_id = 284
 # sent_len = 11
+# definition
 # text = A Borel function is a measurable function between Borel spaces.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	Borel	Borel	PROPN	NNP	Number=Sing	3	compound	_	_
@@ -6536,6 +6658,7 @@
 
 # sent_id = 285
 # sent_len = 9
+# definition
 # text = A measure space $ (X,Sigma, mu) $ is bounded if $ mu(X) < infty $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	measure	measure	NOUN	NN	Number=Sing	3	compound	_	_
@@ -6572,6 +6695,7 @@
 
 # sent_id = 288
 # sent_len = 19
+# definition?
 # text = Corresponding to this decomposition is the Young subgroup of the symmetric group $ S_n $ given by $ S_{alpha_1} times cdots times S_{alpha_k} $ where $ S_{alpha_i} = {sigmain S_n mid sigma(j) = j text{ for all } jnotin alpha_i} $ .
 1	Corresponding	correspond	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	13	amod	_	_
 2	to	to	ADP	IN	_	1	prep	_	_
@@ -6611,6 +6735,7 @@
 
 # sent_id = 290
 # sent_len = 25
+# definition
 # text = The Jacobian determinant of $ g $ is the function $ Jg:Utomathbb R $ given by the absolute value of thedeterminant of the Jacobian matrix of $ g $ : $ Jg(x)= |text{det}(Dg(x))| $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	Jacobian	jacobian	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -6640,6 +6765,7 @@
 
 # sent_id = 291
 # sent_len = 14
+# definition
 # text = The Euclidean inner product is an inner product on $ mathbb R^n $ given by $ langle x,yrangle = sum_{i=1}^n x_iy_i $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	Euclidean	euclidean	ADJ	JJ	Degree=Pos	4	amod	_	_
@@ -6672,6 +6798,7 @@
 
 # sent_id = 293
 # sent_len = 26
+# definition
 # text = A submodule $ N $ of a module over a ring $ M $ is a subset $ Nsubset M $ that forms a module over a ring under the same operations.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	submodule	submodule	NOUN	NN	Number=Sing	11	nsubj	_	_
@@ -6713,7 +6840,8 @@
 8	.	.	PUNCT	.	PunctType=Peri	3	punct	_	SpaceAfter=No
 
 # sent_id = 295
-# sent_len = 26
+# sent_len = 26\
+# definition
 # text = A set is uncountable if it is not countable, that is if it has cardinal number greater than that of the natural numbers $ mathbb N $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	set	set	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -6744,6 +6872,7 @@
 
 # sent_id = 296
 # sent_len = 15
+# definition
 # text = A function $ f:Ato B $ is injective if for all $ a,b in A $ , $ aneq b $ implies that $ f(a)neq f(b) $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	function	function	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -6763,6 +6892,7 @@
 
 # sent_id = 297
 # sent_len = 15
+# definition
 # text = A binary relation $ R $ on sets $ X $ and $ Y $ is a subset of $ X times Y $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	binary	binary	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -6782,6 +6912,7 @@
 
 # sent_id = 298
 # sent_len = 15
+# definition
 # text = If $ (x,y) in R $ , then we say that " $ x $ is related to $ y $ ."
 1	If	if	SCONJ	IN	_	2	mark	_	_
 2	$ (x,y) in R $	$ (x,y) in r $	SYM	$	_	6	advcl	_	_
@@ -6801,6 +6932,7 @@
 
 # sent_id = 299
 # sent_len = 13
+# definition
 # text = An associative algebra is an algebra $ A $ with an associative binary operation.
 1	An	an	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	associative	associative	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -6818,6 +6950,7 @@
 
 # sent_id = 300
 # sent_len = 19
+# definition
 # text = An ideal $ I $ of a ring $ R $ is principal if it can be generated by a single element.
 1	An	an	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	ideal	ideal	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -6841,6 +6974,7 @@
 
 # sent_id = 301
 # sent_len = 22
+# definition
 # text = A lattice $ (L,lor,land) $ is distributed if it satisfies the following distributive laws for all $ a,b,cin L $ : - $ alor (bland c) = (alor b)land (alor c) $ ; - $ aland(blor c) = (aland b)lor (aland c) $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	lattice	lattice	NOUN	NN	Number=Sing	5	nsubjpass	_	_
@@ -6867,6 +7001,7 @@
 
 # sent_id = 302
 # sent_len = 12
+# definition
 # text = The orthogonal group $ text{O}(n) $ is the group of $ ntimes n $ orthogonal matrices.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	orthogonal	orthogonal	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -6906,6 +7041,7 @@
 
 # sent_id = 304
 # sent_len = 28
+# definition
 # text = A subtree (a subgraph that happens to be a tree) of a graph $ X $ is maximal if it is contained in no strictly larger tree.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	subtree	subtree	NOUN	NN	Number=Sing	17	dep	_	_
@@ -6938,6 +7074,7 @@
 
 # sent_id = 305
 # sent_len = 19
+# definition
 # text = The transposition $ sigma_{ij} $ is a permutation in $ S_n $ such that for some $ i,j in {1,dots ,n} $ , $ sigma_{ij}(i) = j, sigma_{ij}(j) = i, text{ and } sigma_{ij}(k) = k $ for all $ kneq i,j $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	transposition	transposition	NOUN	NN	Number=Sing	3	compound	_	_
@@ -6961,6 +7098,7 @@
 
 # sent_id = 306
 # sent_len = 10
+# definition
 # text = Equivalently, a transposition is a 2 - cycle.
 1	Equivalently	equivalently	ADV	RB	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
@@ -6975,6 +7113,7 @@
 
 # sent_id = 307
 # sent_len = 34
+# definition
 # text = The fundamental groupoid $ Pi(X) $ of a topological space $ X $ is the category whose objects are the points of $ X $ and whose morphisms $ xto y $ are the equivalence classes of paths from $ x $ to $ y $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	fundamental	fundamental	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -7065,6 +7204,7 @@
 
 # sent_id = 310
 # sent_len = 17
+# definition
 # text = Two representations of a group $ G $ are equivalent if there exists an invertible intertwiner between them.
 1	Two	two	NUM	CD	NumType=Card	2	nummod	_	_
 2	representations	representation	NOUN	NNS	Number=Plur	7	nsubj	_	_
@@ -7086,6 +7226,7 @@
 
 # sent_id = 311
 # sent_len = 16
+# definition
 # text = The special orthogonal group $ text{SO}(n) $ is the group of $ ntimes n $ orthogonal matrices with unit determinant.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	special	special	ADJ	JJ	Degree=Pos	4	amod	_	_
@@ -7140,6 +7281,7 @@
 
 # sent_id = 314
 # sent_len = 18
+# definition
 # text = For any $ Asubset X $ , the exterior $ text{ext}(A) $ of $ A $ is the complement of the closure of $ A $ .
 1	For	for	ADP	IN	_	10	prep	_	_
 2	any	any	DET	DT	_	3	det	_	_
@@ -7179,6 +7321,7 @@
 
 # sent_id = 316
 # sent_len = 7
+# definition
 # text = The spectrum of $ a $ is $ text{spec}(a)= {lambdainmathbb kmid lambda - a text{ is not invertible}} $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	spectrum	spectrum	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -7190,6 +7333,7 @@
 
 # sent_id = 317
 # sent_len = 17
+# definition
 # text = The dual of a normed linear space $ X $ is the set of bounded linear functions $ f: Xto mathbb R $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	dual	dual	NOUN	NN	Number=Sing	9	nsubj	_	_
@@ -7240,6 +7384,7 @@
 
 # sent_id = 320
 # sent_len = 11
+# definition
 # text = The filled Julia set of a polynomial $ f $ is $ K(f) = {zinhat{mathbb C}mid exists T in mathbb R text{ s.t. }|f^{circ n}(z)| leq T forall n} $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	filled	fill	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	amod	_	_
@@ -7269,6 +7414,7 @@
 
 # sent_id = 322
 # sent_len = 25
+# definition
 # text = If $ K $ is equal to its own normalizer of a vector space (i.e. $ K = N_L(K) $ ), then $ K $ is called self - normalizing .
 1	If	if	SCONJ	IN	_	3	mark	_	_
 2	$ K $	$ k $	SYM	$	_	3	nsubj	_	_
@@ -7298,6 +7444,7 @@
 
 # sent_id = 323
 # sent_len = 15
+# definition
 # text = A property is typical if it holds for every element of a residual set.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	property	property	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -7317,6 +7464,7 @@
 
 # sent_id = 324
 # sent_len = 32
+# definition
 # text = A Gale - Stewart game is a two - player game in which both players have perfect information, make an infinite sequence of moves, and there are no draws.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
 2	Gale	Gale	PROPN	NNP	Number=Sing	4	compound	_	_
@@ -7382,6 +7530,7 @@
 
 # sent_id = 327
 # sent_len = 39
+# definition
 # text = Then the analogue to the Fourier transform of $ f $ is given by $ widehat{f}(u) = int_{mathbb Q_p}f(x)psi_u(x)text dx $ where $ psi_u $ is the multiple of the Basic Additive Character on $ mathbb Q_p $ and the integral is taken with respect to the Haar measure on $ mathbb Q_p $ .
 1	Then	then	ADV	RB	PronType=Dem	11	advmod	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -7425,6 +7574,7 @@
 
 # sent_id = 328
 # sent_len = 32
+# definition
 # text = A linear functional on a vector space $ V $ with underlying field $ F $ is a linear transformation from $ V $ to $ F $ when considered as a one - dimensional vector space over itself.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	linear	linear	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -7461,6 +7611,7 @@
 
 # sent_id = 329
 # sent_len = 15
+# definition
 # text = A matrix Lie group is a closed subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
 2	matrix	matrix	NOUN	NN	Number=Sing	4	compound	_	_
@@ -7498,6 +7649,7 @@
 
 # sent_id = 331
 # sent_len = 7
+# definition
 # text = The centralizer of $ S $ is $ C_G(S) = {gin Gmid gs=sg text{ for all } sin S} $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	centralizer	centralizer	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -7542,6 +7694,7 @@
 
 # sent_id = 334
 # sent_len = 25
+# definition
 # text = The quotient of $ S $ by $ sim $ (denoted $ S/sim $ ) is the set of equivalence classes of elements of $ S $ with respect to $ sim $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	quotient	quotient	NOUN	NN	Number=Sing	11	nsubj	_	_
@@ -7589,6 +7742,7 @@
 
 # sent_id = 336
 # sent_len = 15
+# definition
 # text = Then $ lambda in F $ is an eigenvalue of $ T $ if there exists $ vin V $ such that $ T(v) = lambda v $ .
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
 2	$ lambda in F $	$ lambda in f $	SYM	$	_	3	nsubj	_	_
@@ -7608,6 +7762,7 @@
 
 # sent_id = 337
 # sent_len = 14
+# definition
 # text = A topological space is contractible if it is homotopy equivalent to a point.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	topological	topological	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -7642,6 +7797,7 @@
 
 # sent_id = 339
 # sent_len = 17
+# definition
 # text = A function $ f:Xto Y $ is $ G $ - invariant if for all $ gin G $ and all $ xin X $ , $ f(gx) = f(x) $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	function	function	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -7663,6 +7819,7 @@
 
 # sent_id = 340
 # sent_len = 23
+# definition
 # text = A Lie algebra $ L $ is solvable if some element $ L^{(n)} $ of its derived series of a Lie algebra is equal to 0.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	Lie	lie	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -7690,6 +7847,7 @@
 
 # sent_id = 341
 # sent_len = 31
+# definition
 # text = The descending central series of ideals of a Lie algebra $ L $ is given by the derived algebras $ } $ Where $ L^{(1)} $ is the second element of the derived series of $ L $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	descending	descend	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	amod	_	_
@@ -7725,6 +7883,7 @@
 
 # sent_id = 342
 # sent_len = 14
+# definition
 # text = An $ n $ - simplex is the smallest convex set in $ mathbb R^m $ containing $ n+1 $ points
 1	An	an	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
 2	$ n $	$ n $	SYM	$	_	4	compound	_	_
@@ -7761,6 +7920,7 @@
 
 # sent_id = 344
 # sent_len = 10
+# definition
 # text = The standard $ n $ - simplex is the set $ Delta^n = {(t_0,dots, t_n)inmathbb R^{n+1} mid sum_i t_i =1 text{ and } t_i geq 0 forall i} $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	standard	standard	NOUN	NN	Number=Sing	5	amod	_	_
@@ -7838,6 +7998,7 @@
 
 # sent_id = 348
 # sent_len = 24
+# definition
 # text = Then given homomorphisms $ f:Mto L $ and $ g:Nto L $ , there exists a unique homomorphism $ foplus g:Moplus Nto L $ from the direct sum $ Moplus N $ to $ L $ defined by $ foplus g(m,n) = f(m) + g(n) $ .
 1	Then	then	ADV	RB	PronType=Dem	2	advmod	_	_
 2	given	give	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	advcl	_	_
@@ -7880,6 +8041,7 @@
 
 # sent_id = 350
 # sent_len = 13
+# definition
 # text = An element $ bin X $ is a right inverse element for $ ain X $ if $ a * b=e $ .
 1	An	an	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	element	element	NOUN	NN	Number=Sing	3	compound	_	_
@@ -7897,6 +8059,7 @@
 
 # sent_id = 351
 # sent_len = 19
+# definition
 # text = A nonempty family $ R $ of sets is a ring if it is closed under union and relative complement.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	nonempty	nonempty	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -7950,6 +8113,7 @@
 
 # sent_id = 354
 # sent_len = 10
+# definition
 # text = Define a homomorphism $ varphi_g: Gto G $ by $ varphi_g(x) = gxg^{ - 1} $ for all $ xin G $ .
 1	Define	define	VERB	VB	VerbForm=Inf	0	ROOT	_	_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
@@ -7978,6 +8142,7 @@
 
 # sent_id = 356
 # sent_len = 9
+# definition
 # text = The $ varphi_g $ are called inner automorphisms of $ G $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	$ varphi_g $	$ varphi_g $	SYM	$	_	4	nsubjpass	_	_
@@ -8009,6 +8174,7 @@
 
 # sent_id = 358
 # sent_len = 16
+# definition
 # text = A function $ T: V to W $ is a linear transformation if for all $ v,w in V $ and $ alpha,beta in F $ , $ T(alpha v+beta w) = alpha T(v) + beta T(w) $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	function	function	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -8045,6 +8211,7 @@
 
 # sent_id = 360
 # sent_len = 16
+# definition
 # text = If a linear transformation is bijective, then it is an isomorphism of vector spaces.
 1	If	if	SCONJ	IN	_	5	mark	_	_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
@@ -8075,6 +8242,7 @@
 
 # sent_id = 362
 # sent_len = 19
+# definition
 # text = An ideal $ I $ of $ R $ is a subset that is both a left ideal and a right ideal.
 1	An	an	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	ideal	ideal	ADJ	JJ	Degree=Pos	6	nsubj	_	_
@@ -8098,6 +8266,7 @@
 
 # sent_id = 363
 # sent_len = 9
+# definition
 # text = A surface is a two - dimensional manifold.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	surface	surface	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -8149,6 +8318,7 @@
 
 # sent_id = 366
 # sent_len = 18
+# definition
 # text = The operator $ T $ is of type weak $ (p,q) $ if there exists a constant $ c > 0 $ such that $ mu({x in Xmid |Tf(x)|>t})leqleft(frac{c||f||_p}{t}right)^q $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	operator	operator	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -8171,6 +8341,7 @@
 
 # sent_id = 367
 # sent_len = 18
+# definition
 # text = If $ q = infty $ , then $ T $ is weak $ (p,infty) $ if there exists a constant $ c > 0 $ such that $ ||Tf||_infty leq c||f||_p $ .
 1	If	if	SCONJ	IN	_	2	mark	_	_
 2	$ q = infty $	$ q = infty $	SYM	$	_	5	dep	_	_
@@ -8193,6 +8364,7 @@
 
 # sent_id = 368
 # sent_len = 28
+# definition
 # text = A graph $ X $ is locally finite if each vertex is a boundary point of only finitely many eges or if $ X $ is a locally compact topological space.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	graph	graph	NOUN	NN	Number=Sing	3	compound	_	_
@@ -8242,6 +8414,7 @@
 
 # sent_id = 370
 # sent_len = 12
+# definition
 # text = We say that $ Gamma $ is inconsistent if it is not consistent.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	say	say	VERB	VBP	Tense=Pres|VerbForm=Fin	0	ROOT	_	_
@@ -8268,6 +8441,7 @@
 
 # sent_id = 372
 # sent_len = 30
+# definition
 # text = Then translation by en element $ bin F $ is a group homomorphism $ t_b:(F, +)to F $ given by $ t_b(x) = x+b $ and multiplication by a nonzero element $ ain F $ gives a group homomorphism $ m_a:Fto F $ given by $ m_a(x) = ax $ .
 1	Then	then	ADV	RB	PronType=Dem	7	advmod	_	_
 2	translation	translation	NOUN	NN	Number=Sing	7	nsubj	_	_
@@ -8338,6 +8512,7 @@
 
 # sent_id = 375
 # sent_len = 36
+# definition
 # text = Combining the two actions, we get the affine transformations of $ F $ $ text{Aff}(F) = {t_bm_amid bin F, ain F^times} $ A measurable space is the pair $ (X,mathcal M) $ consisting of a set $ X $ and a σ - algebra $ mathcal M $ of subsets of $ X $ .
 1	Combining	combine	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	7	advcl	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
@@ -8378,6 +8553,7 @@
 
 # sent_id = 376
 # sent_len = 15
+# definition
 # text = A subset $ E $ of $ X $ is measurable if it is an element of $ mathcal M $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	subset	subset	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -8397,6 +8573,7 @@
 
 # sent_id = 377
 # sent_len = 17
+# definition
 # text = An algebraic integer is a number that is the root of a monic polynomial over $ mathbb Z $ .
 1	An	an	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	algebraic	algebraic	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -8440,6 +8617,7 @@
 
 # sent_id = 380
 # sent_len = 17
+# definition
 # text = For $ f in L_1(X,mu) $ , the Hardy - Littlewood maximal operator $ Mf $ is defined as follows: $ (Mf)(x)=sup_{r>0}frac{1}{mu(B(x,r))}int_{B(x,r)}|f|text dmu $ .
 1	For	for	ADP	IN	_	12	prep	_	_
 2	$ f in L_1(X,mu) $	$ f in l_1(x,mu) $	SYM	$	_	1	pobj	_	_
@@ -8491,6 +8669,7 @@
 
 # sent_id = 382
 # sent_len = 22
+# definition
 # text = Elements of $ C_n(X) $ are called singular $ n $ - chains and are written as finite formal sums $ sum_i n_isigma_i $ for $ n_iinmathbb Z $ and $ sigma_i:Delta^nto X $ .
 1	Elements	element	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
 2	of	of	ADP	IN	_	1	prep	_	_
@@ -8517,6 +8696,7 @@
 
 # sent_id = 383
 # sent_len = 18
+# definition
 # text = A magma is a set $ X $ together with a binary operation $ * $ that is closed under $ * $ .
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	magma	magma	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -8571,6 +8751,7 @@
 
 # sent_id = 386
 # sent_len = 22
+# definition
 # text = The Hessian matrix of $ f $ at the point $ a in U $ is the matrix $ H = }_{i,j=1}^n $ of the mixed second partial derivatives of $ f $ .
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	Hessian	hessian	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -8611,6 +8792,7 @@
 
 # sent_id = 388
 # sent_len = 10
+# definition
 # text = The structure constants $ a_{ij}^k $ are the constants in the expressions
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	structure	structure	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -8650,6 +8832,7 @@
 
 # sent_id = 391
 # sent_len = 28
+# definition
 # text = Then the dual representation of $ mathfrak g $ is the pair $ (V^*,rho_{V^*}) $ where $ V^* $ is the dual space of $ V $ and $ rho_{V^*} $ is given by $ rho_{V^*}(x) = - rho_V(x)^ * $ for all $ x in mathfrak g $ .
 1	Then	then	ADV	RB	PronType=Dem	7	advmod	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
@@ -8682,6 +8865,7 @@
 
 # sent_id = 392
 # sent_len = 32
+# definition
 # text = A unital subring of a ring $ R $ is a subset $ S $ of $ R $ that is itself a ring under the binary operations in $ R $ with the same additive and multiplicative identities.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
 2	unital	unital	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -8744,6 +8928,7 @@
 
 # sent_id = 394
 # sent_len = 16
+# definition
 # text = The universal enveloping algebra $ mathcal U(mathfrak g) $ is the associative algebra generated by the $ x_i $ with the relations
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 2	universal	universal	ADJ	JJ	Degree=Pos	3	amod	_	_
@@ -8852,6 +9037,7 @@
 
 # sent_id = 400
 # sent_len = 43
+# definition
 # text = Then the universal enveloping algebra $ mathcal U(mathfrak g) $ is the algebra such that the following diagram commutes: In a basis - free setting, let $ mathfrak g $ be a Lie algebra over the field $ F $ and let $ Tmathfrak g $ be the tensor algebra of $ mathfrak g $ .
 1	Then	then	ADV	RB	PronType=Dem	5	advmod	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_

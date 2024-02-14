@@ -146,12 +146,7 @@ Let $ L $ be a Lie algebra.
 A vector subspace $ K $ of $ L $ is a subalgebra of $ L $ if $ xy in K $ whenever $ x,y in K $ .
 Moreover, $ K $ is itself a Lie algebra.
 A module over a ring $ M $ is semisimple if it may be written as the direct sum of simple modules.
-A vector space $ V $ over the field $ F $ is a set together with two operations "addition" ( $ +: Vtimes V to V $ ) and "scalar multiplication" ( $ cdot: Ftimes V to V $ ) satisfying the following eight axioms: (i) Addition is associative; (ii) Addition is commutative; (iii) There exists a vector $ 0 in V $ such that $ 0 + v = v $ for all $ v in V $ .
-( $ 0 $ is the additive identity in $ V $ ) (iv) For every $ v in V $ , there exists $ - v in V $ such that $ v + ( - v) = 0 $ .
-( $ - v $ is the additive inverse of $ v $ ) (v) $ a(bv)= (ab)v $ for all $ a,b in F $ and $ v in V $ .
-(vi) $ 1v = v $ for all $ v in V $ , where $ 1 $ is the multiplicative identity in $ F $ .
-(vii) $ a(u+v) = au+av $ for all $ a in F $ , $ u,v in V $ .
-(viii) $ (a+b)v = av+bv $ for all $ a,b in F $ , $ vin V $ .
+A vector space $ V $ over the field $ F $ is a set together with two operations "addition" ( $ +: Vtimes V to V $ ) and "scalar multiplication" ( $ cdot: Ftimes V to V $ ) satisfying the following eight axioms: (i) Addition is associative; (ii) Addition is commutative; (iii) There exists a vector $ 0 in V $ such that $ 0 + v = v $ for all $ v in V $ ;  ( $ 0 $ is the additive identity in $ V $ ) (iv) For every $ v in V $ , there exists $ - v in V $ such that $ v + ( - v) = 0 $ ( $ - v $ is the additive inverse of $ v $ );  (v) $ a(bv)= (ab)v $ for all $ a,b in F $ and $ v in V $ ; (vi) $ 1v = v $ for all $ v in V $ , where $ 1 $ is the multiplicative identity in $ F $ ; (vii) $ a(u+v) = au+av $ for all $ a in F $ , $ u,v in V $ ; (viii) $ (a+b)v = av+bv $ for all $ a,b in F $ , $ vin V $ .
 Axioms (vii) and (viii) are distributive laws.
 Let $ Dsubsetmathbb R^n $ be connected and open.
 A function $ f:Dto mathbb R $ is harmonic if for all $ zin D $ and every
@@ -1590,7 +1585,7 @@ Let $ (X,Sigma) $ be a measurable space and let $ mu $ and $ nu $ be two measure
 Let $ X $ be a set with binary operation $ * $ .
 An element $ ein X $ is a left identity of $ X $ if $ x* a = a $ for all $ ain A $ .
 A norm on a vector space $ V $ is a real - valued functional $ ||cdot|| $ such that for all $ v,w in V $ and $ alpha in mathbb R $ , the following properties hold: (i) $ ||v+w|| leq ||v|| + ||w|| $ ; (ii) $ ||alpha v|| = |alpha| cdot ||v|| $ ; (iii) $ ||v|| geq 0 $ and $ ||v|| = 0 $ if and only if $ v=0 $ .
-hAn orthonormal sequence of vectors $ {v_i}_{iinmathbb N} $ in a Hilbert space $ H $ is an orthonormal (Hamel) basis for $ H $ if $ h = sum_{iinmathbb N} langle v_i, hrangle v_i $ for all $ h in H $ .
+An orthonormal sequence of vectors $ {v_i}_{iinmathbb N} $ in a Hilbert space $ H $ is an orthonormal (Hamel) basis for $ H $ if $ h = sum_{iinmathbb N} langle v_i, hrangle v_i $ for all $ h in H $ .
 A ring homomorphism is a map $ f:Sto R $ between rings $ S $ and $ R $ such that - $ f:(S,+) to (R,+) $ is a group homomorphism; - $ f(s_1s_2)= f(s_1)f(s_2) $ for all $ s_1,s_2in S $ ; - $ f(1) = 1 $ .
 A ring isomorphism is a homomorphism that happens to also be a bijection.
 Let $ V = bigoplus_{igeq0} V_i $ be a graded vector space.
@@ -1602,9 +1597,7 @@ Then the quotient $ L / I $ is constructed as follows: - The underlying vector s
 Let $ (V_1,rho_1) $ and $ (V_2,rho_2)) $ be representations of the group $ G $ .
 The tensor product of $ V_1 $ and $ V_2 $ is a representation of $ G $ over the tensor product of vector spaces $ V_1otimes V_2 $ under the linear transformation $ rho_1otimes rho_2 = rho:Gto V_1otimes V_2 $ such that $ rho(g)(v_1otimes v_2) = (rho_1(g)v_1)otimes (rho_2(g)v_2) $ .
 The measure density of a set $ A subsetmathbb R^n $ at a point $ x in mathbb R^n $ is given by $ lim_{rto 0} frac{mu(Acap B(x,r))}{mu(B(x,r))} $ where $ mu $ is some measure on $ mathbb R^n $ .
-Definition 1 (second category sets)
 A topological space is a Baire space if every nonempty open set in $ X $ is nonmeager.
-Definition 2 (intersection of open dense sets)
 A topological space is a Baire space if every countable intersection of open dense sets is also dense.
 A derivation of the algebra over a field $ U $ is a linear transformation $ delta $ satisfying the product rule: $ delta(ab) = adelta(b) + delta(a) b $ .
 The group algebra of a group $ G $ is the group ring of $ G $ over $ mathbb C $ is denoted $ mathbb CG $ and is the set of maps $ f:Gto mathbb C $ with finite support.

@@ -1,0 +1,31 @@
+things to remove from BCT:
+- \chapter{-}
+- \section{-}
+- \subsection{-}
+- environments EXCEPT:
+    - \begin{equation} \end{equation} (REPLACE WITH $)
+    - \[ \] (REPLACE WITH $)
+- \label{-}
+- %
+- \ntn{-}
+- \emph{} LEAVE ARGUMENT
+- \demph{} LEAVE ARGUMENT, DO LAST
+- \index{-}
+- \item 
+- \ref{-}
+- \bref{-}
+- \eqref{-}
+- replace ~\something with " X", higher precedence than anything else
+
+environments:
+- slogan
+- defn
+- equation
+- array
+- remarks
+- enumerate
+- examples
+- remark
+- examples
+- figure
+- picture

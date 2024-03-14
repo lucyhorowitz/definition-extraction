@@ -139,13 +139,13 @@ Find a universal property satisfied by the pair $ (ker(theta), iota) $ of diagra
 (This property can - - indeed, must - - make reference to $ theta $.)
 Verify the universal property shown in diagram $ X $.
 Denote by $ integers[x] $ the polynomial ring over $ integers $ in one variable.
-[(b)]
+
 Prove that for all rings $ R $ and all $ r in R $ , there exists a unique ring homomorphism $ phifrom integers[x] to R $ such that $ phi(x) = r $.
 Let $ A $ be a ring and $ a in A $.
 Suppose that for all rings $ R $ and all $ r in R $ , there exists a unique ring homomorphism $ phifrom A to R $ such that $ phi(a) = r $.
 Prove that there is a unique isomorphism $ iotafrom integers[x] to A $ such that $ iota(x) = a $.
 Let $ X $ and $ Y $ be vector spaces.
-[(b)]
+
 For the purposes of this exercise only, a cone is a triple $ (V, f_1, f_2) $ consisting of a vector space $ V $ , a linear map $ f_1from V to X $ , and a linear map $ f_2from V to Y $.
 Find a cone $ (P, p_1, p_2) $ with the following property: for all cones $ (V, f_1, f_2) $ , there exists a unique linear map $ ffrom V to P $ such that $ p_1 of f = f_1 $ and $ p_2 of f = f_2 $.
 Prove that there is essentially only one cone with the property stated in $ X $.
@@ -201,17 +201,17 @@ Hence by Lemma $ X $ , it has an initial object, as required.
 exs In this exercise, we suspend the convention (made implicitly in Definition $ X $ ) that we only speak of the limit of a functor $ scat{I} to cat{C} $ when $ scat{I} $ is small.
 Let $ cat{B} $ be a category, possibly large.
 The aim is to prove that a limit of the identity functor on $ cat{B} $ is exactly an initial object of $ cat{B} $.
-[(b)] Let $ 0 $ be an initial object of $ cat{B} $.
+ Let $ 0 $ be an initial object of $ cat{B} $.
 Show that the cone $ (0 to B)_{B in cat{B}} $ on the identity functor $ 1_cat{B} $ is a limit cone.
 Now let $ Bigl(L toby{p_B} BBigr)_{B in cat{B}} $ be a limit cone on $ 1_cat{B} $.
 Prove that $ p_L $ is the identity on $ L $ , and deduce that $ L $ is initial.
 Here you will prove the special case of Lemma $ X $ in which the category concerned is a poset.
 Let $ C $ be a poset and $ S sub C $.
-[(b)]
+
 What does it mean, in purely order - theoretic terms, for $ S $ to be a weakly initial set in $ C $ ?
 Prove directly that if $ S $ is weakly initial and the meet $ Meet_{s in S} s $ exists then $ Meet_{s in S} s $ is a least element of $ C $.
 Let $ G from cat{B} to cat{A} $ be a limit - preserving functor, and let $ A in cat{A} $.
-[(b)]
+
 Show that for any small category $ scat{I} $ , a diagram of shape $ scat{I} $ in $ comma{A}{G} $ amounts to a diagram $ E $ of shape $ scat{I} $ in $ cat{B} $ together with a cone on $ G of E $ with vertex $ A $.
 Prove that the projection functor $ P_A from comma{A}{G} to cat{B} $ of $ X $ creates limits.
 Limits, and the dual concept, colimits, provide our third approach to the idea of universal property.
@@ -237,7 +237,7 @@ A product of $ X $ and $ Y $ consists of an object $ P $ and maps $ xymatrix{ &P
 in $ cat{A} $ , there exists a unique map $ bar{f}from A to P $ such that $ {c} xymatrix{ &A ar[ldd]_{f_1} ar@{.>}[d]|{bar{f}vphantom{bar{bar{f}}}} ar[rdd]^{f_2}& &P ar[ld]^{p_1} ar[rd]_{p_2} & X & &Y } $.
 commutes.
 The maps $ p_1 $ and $ p_2 $ are called the projections.
-[(b)] Products do not always exist.
+ Products do not always exist.
 For example, if $ cat{A} $ is the discrete two - object category $ fbox{ $ Xbullet $ hspace*{2em} $ bullet Y $ } $ then $ X $ and $ Y $ do not have a product.
 But when objects $ X $ and $ Y $ of a category do have a product, it is unique up to isomorphism.
 (This can be proved directly, much as in Lemma $ X $.
@@ -270,7 +270,7 @@ Now let $ X $ and $ Y $ be vector spaces.
 We can form their direct sum, $ X oplus Y $ , whose elements can be written as either $ (x, y) $ or $ x + y $ (with $ x in X $ and $ y in Y $ ), according to taste.
 There are linear projection maps $ xymatrix{ &X oplus Y ar[ld]_{p_1} ar[rd]^{p_2} & X & &Y } qquad xymatrix{ &(x, y) ar@{| - >}[ld] ar@{| - >}[rd] & x & &y. } $ It can be shown that $ X oplus Y $ , together with $ p_1 $ and $ p_2 $ , is the product of $ X $ and $ Y $ in the category of vector spaces (Exercise $ X $ ).
 [Elements of ordered sets]
-[(b)] Let $ x, y in reals $.
+ Let $ x, y in reals $.
 Their minimum $ min{x, y } $ satisfies $ min{x, y } leq x, qquad min{x, y } leq y $ and has the further property that whenever $ a in reals $ with $ a leq x, qquad a leq y, $ we have $ a leq min{x, y } $.
 This means exactly that when the poset $ (reals, mathord{leq}) $ is viewed as a category, the product of $ x, y in reals $ is $ min{x, y } $.
 The definition of product simplifies when interpreted in a poset, since all diagrams commute.
@@ -361,7 +361,7 @@ Another name for pullback is demph{fibred product}.
 This name is partially explained by the following fact: when $ Z $ is a terminal object (and $ s $ and $ t $ are the only maps they can possibly be), a pullback of the diagram $ X $ is simply a product of $ X $ and $ Y $.
 [Pullbacks in $ Set $ ] The pullback of a diagram $ X $ in $ Set $ is $ P = { (x, y) in X times Y such s(x) = t(y) } $ with projections $ p_1 $ and $ p_2 $ given by $ p_1(x, y) = x $ and $ p_2(x, y) = y $.
 Although you might not be familiar with general pullbacks in $ Set $ , there are at least two instances that you are likely to have met.
-[(b)] A basic construction with sets and functions is the formation of inverse images.
+ A basic construction with sets and functions is the formation of inverse images.
 They are an instance of pullbacks.
 Indeed, given a function $ ffrom X to Y $ and a subset $ Y' sub Y $ , we obtain a new set, the inverse image $ f^{ - 1}Y' = { x in X such f(x) in Y' } sub X, $ and a new function,
 $ {cccc} f'from &f^{ - 1} Y' &to &Y' &x &mapsto &f(x). $ We also have the inclusion functions $ jfrom Y' incl Y $ and $ ifrom f^{ - 1}Y' incl X $.
@@ -405,13 +405,13 @@ So $ X $ , and $ X $ are diagrams of shape $ scat{T} $ , $ scat{E} $ and $ scat{
 We already have the definitions of product of a diagram of shape $ scat{T} $ , equalizer of a diagram of shape $ scat{E} $ , and pullback of a diagram of shape $ scat{P} $.
 We now unify them in the definition of limit (Figure $ X $ ).
 Let $ cat{A} $ be a category, $ scat{I} $ a small category, and $ Dfrom scat{I} to cat{A} $ a diagram in $ cat{A} $.
-[(b)]
+
 A cone on $ D $ is an object $ A in cat{A} $ (the vertex of the cone) together with a family $ Bigl( A toby{f_I} D(I) Bigr)_{I in scat{I}} $.
 of maps in $ cat{A} $ such that for all maps $ I toby{u} J $ in $ scat{I} $ , the triangle $ xymatrix@R=1ex{ &D(I) ar[dd]^{Du} A ar[ru]^{f_I} ar[rd]_{f_J} & &D(J) } $ commutes.
 (Here and later, we abbreviate $ D(u) $ as $ Du $.)
 A limit of $ D $ is a cone $ Bigl(L toby{p_I} D(I)Bigr)_{I in scat{I}} $ with the property that for any cone $ X $ on $ D $ , there exists a unique map $ bar{f}from A to L $ such that $ p_I of bar{f} = f_I $ for all $ I in scat{I} $.
 The maps $ p_I $ are called the projections of the limit.
-[(b)]
+
 Loosely, the universal property says that for any $ A in cat{A} $ , maps $ A to L $ correspond one - to - one with cones on $ D $ with vertex $ A $.
 (Any map $ gfrom A to L $ gives rise to a cone $ Bigl( A toby{p_I g} D(I) Bigr)_{I in scat{I}} $ , and the definition of limit is that for each $ A $ , this process is bijective.)
 In Section $ X $ , we will use this thought to rephrase the definition of limit in terms of representability.
@@ -425,7 +425,7 @@ By assuming from the outset that the shape category $ scat{I} $ is small, we are
 We will seldom be interested in any other kind.
 [Limit shapes] Let $ cat{A} $ be any category.
 Recall the categories $ scat{T} $ , $ scat{E} $ and $ scat{P} $ of $ X $.
-[(b)]
+
 A diagram $ D $ of shape $ scat{T} $ in $ cat{A} $ is a pair $ (X, Y) $ of objects of $ cat{A} $.
 A cone on $ D $ is an object $ A $ together with maps $ f_1from A to X $ and $ f_2from A to Y $ (as in Definition $ X $ ), and a limit of $ D $ is a product of $ X $ and $ Y $.
 More generally, let $ I $ be a set and write $ scat{I} $ for the discrete category on $ I $.
@@ -459,7 +459,7 @@ Of course, we also have to say what the group/ring/ldots structure on the set $ 
 For instance, in $ Vect_k $ , if $ (x_I)_{I in scat{I}}, (y_I)_{I in scat{I}} in lt{scat{I}} D $ then
 $ (x_I)_{I in scat{I}} + (y_I)_{I in scat{I}} = (x_I + y_I)_{I in scat{I}}. $ The same formula also gives limits in $ Tp $.
 The topology on the set $ X $ is the smallest for which the projection maps are continuous.
-[(b)] Let $ scat{I} $ be a small category.
+ Let $ scat{I} $ be a small category.
 A category $ cat{A} $ demph{has limits of shape $ scat{I} $ } if for every diagram $ D $ of shape $ scat{I} $ in $ cat{A} $ , a limit of $ D $ exists.
 A category has all limits (or properly, has small limits) if it has limits of shape $ scat{I} $ for all small categories $ scat{I} $.
 Thus, $ Set $ , $ Tp $ , $ Grp $ , $ Ring $ , $ Vect_k $ , ldots all have all limits.
@@ -470,7 +470,7 @@ A demph{finite limit} is a limit of shape $ scat{I} $ for some finite category $
 For instance, binary products, terminal objects, equalizers and pullbacks are all finite limits.
 The next result tells us that all limits can be built up from limits of just a few familiar, basic types.
 Let $ cat{A} $ be a category.
-[(b)]
+
 If $ cat{A} $ has all products and equalizers then $ cat{A} $ has all limits.
 If $ cat{A} $ has binary products, a terminal object and equalizers then $ cat{A} $ has finite limits.
 To understand the idea, consider formula $ X $ for limits in $ Set $.
@@ -521,12 +521,12 @@ Take a commutative diagram $ xymatrix{ cdot ar[r] ar[d] & cdot ar[r] ar[d] & cdo
 Suppose that the right - hand square is a pullback.
 Show that the left - hand square is a pullback if and only if the outer rectangle is a pullback.
 Let $ D from scat{I} to cat{A} $ be a diagram and $ Bigl( L toby{p_I} D(I) Bigr)_{I in scat{I}} $ a limit cone on $ D $.
-[(b)] Prove that whenever $ parpairi{A}{L}{h}{h'} $ are maps such that $ p_I of h = p_I of h' $ for all $ I in scat{I} $ , then $ h = h' $.
+ Prove that whenever $ parpairi{A}{L}{h}{h'} $ are maps such that $ p_I of h = p_I of h' $ for all $ I in scat{I} $ , then $ h = h' $.
 What does the result of $ X $ mean when $ scat{I} $ is the two - object discrete category, $ cat{A} = Set $ , and $ A = 1 $ ?
 Answer without using any category - theoretic terminology.
 Show that the set $ X $ in Example $ X $ really is a limit of $ D $.
 In this exercise, you will prove Proposition $ X $ , following the plan described after the statement of that proposition.
-[(b)] Let $ cat{A} $ be a category with all products and equalizers.
+ Let $ cat{A} $ be a category with all products and equalizers.
 Let $ D from scat{I} to cat{A} $ be a diagram in $ cat{A} $.
 Define maps $ xymatrix{ displaystyle prod_{I in scat{I}} D(I) ar@<(i)5ex>[r]^ - s ar@<.5ex>[r]_ - t & displaystyle prod_{J toby{u} K text{ in } scat{I}} D(K) } $ as follows: given $ J toby{u} K $ in $ scat{I} $ , the $ u $ - component of $ s $ is the composite $ prod_{I in scat{I}} D(I) toby{pr_J} D(J) toby{Du} D(K) $ (where $ pr $ denotes a product projection), and the $ u $ - component of $ t $ is $ pr_K $.
 Let $ L toby{p} prod_{I in scat{I}} D(I) $ be the equalizer of $ s $ and $ t $ , and write $ p_I $ for the $ I $ - component of $ p $.
@@ -536,7 +536,7 @@ Prove that a category with pullbacks and a terminal object has all finite limits
 Let $ cat{A} $ be a category and $ A in cat{A} $.
 A subobject of $ A $ is an isomorphism class of monics into $ A $.
 More precisely, let $ fcat{Monic}(A) $ be the full subcategory of $ cat{A}/A $ whose objects are the monics; then a subobject of $ A $ is an isomorphism class of objects of $ fcat{Monic}(A) $.
-[(b)] Let $ X toby{m} A $ and $ X' toby{m'} A $ be monics in $ Set $.
+ Let $ X toby{m} A $ and $ X' toby{m'} A $ be monics in $ Set $.
 Show that $ m $ and $ m' $ are isomorphic in $ fcat{Monic}(A) $ if and only if they have the same image.
 Deduce that the subobjects of $ A $ are in canonical one - to - one correspondence with the subsets of $ A $.
 Part $ X $ says that in $ Set $ , subobjects are subsets.
@@ -695,17 +695,17 @@ In the category of Hausdorff topological spaces and continuous maps, any map wit
 Of course, there is a dual of Lemma $ X $ , saying that a map is epic if and only if a certain square is a pushout.
 exs Let $ parpair{X}{Y}{s}{t} $ be maps in some category.
 Prove that $ s = t $ if and only if the equalizer of $ s $ and $ t $ exists and is an isomorphism, if and only if the coequalizer of $ s $ and $ t $ exists and is an isomorphism.
-[(b)] Let $ X $ be a set and $ ffrom X to X $ a map.
+ Let $ X $ be a set and $ ffrom X to X $ a map.
 Describe the coequalizer of $ parpairi{X}{X}{f}{1} $ in $ Set $ as explicitly as possible.
 Do the same in $ Tp $ rather than $ Set $.
 When $ X $ is the circle $ S^1 $ , find an $ f $ such that the coequalizer is an uncountable space with the indiscrete topology.
-[(b)] Prove that in the category of monoids, the inclusion $ (nat, +, 0) incl (integers, +, 0) $ is epic, even though it is not surjective.
+ Prove that in the category of monoids, the inclusion $ (nat, +, 0) incl (integers, +, 0) $ is epic, even though it is not surjective.
 Prove that in the category of rings, the inclusion $ integers incl rationals $ is epic, even though it is not surjective.
 (Compare Exercise $ X $.)
 Let $ cat{A} $ be a category and $ A in cat{A} $.
 Define a demph{quotient object} of $ A $ to be an isomorphism class of epics out of $ A $.
 That is, let $ fcat{Epic}(A) $ be the full subcategory of $ A/cat{A} $ whose objects are the epics; then a quotient object of $ A $ is an isomorphism class of objects of $ fcat{Epic}(A) $.
-[(b)] Let $ A toby{e} X $ and $ A toby{e'} X' $ be epics in $ Set $.
+ Let $ A toby{e} X $ and $ A toby{e'} X' $ be epics in $ Set $.
 Show that $ e $ and $ e' $ are isomorphic in $ fcat{Epic}(A) $ if and only if they induce the same equivalence relation on $ A $.
 Deduce that the quotient objects of $ A $ are in canonical one - to - one correspondence with the equivalence relations on $ A $.
 Assuming the (nontrivial) fact that the epics in $ Grp $ are the surjections, show that the quotient objects of a group correspond one - to - one with its normal subgroups.
@@ -713,12 +713,12 @@ Assuming the (nontrivial) fact that the epics in $ Grp $ are the surjections, sh
 Arguably, `quotient object' would be more suitable for an isomorphism class of regular epics, as defined in the following exercises.)
 A map $ mfrom A to B $ is demph{regular monic} if there exist an object $ C $ and maps $ B parpairu C $ of which $ m $ is an equalizer.
 A map $ mfrom A to B $ is demph{split monic} if there exists a map $ efrom B to A $ such that $ em = 1_A $.
-[(b)] Show that split monic $ implies $ regular monic $ implies $ monic.
+ Show that split monic $ implies $ regular monic $ implies $ monic.
 In $ Ab $ , show that all monics are regular but not all monics are split.
 (Hint for the first part: equalizers in $ Ab $ are calculated as in Example $ X $.)
 In $ Tp $ , describe the regular monics, and find a monic that is not regular.
 Dualizing the definitions in Exercise $ X $ gives definitions of regular and demph{split epic}.
-[(b)]
+
 We saw in Example $ X $ that a map may be monic and epic but not an isomorphism.
 Prove that in any category, a map is an isomorphism if and only if it is both monic and regular epic.
 Using the assumption that our category of sets satisfies the axiom of choice (Section $ X $ ), show that $ text{epic} iff text{regular epic} iff text{split epic} $ in $ Set $.
@@ -733,7 +733,7 @@ On the other hand, colimits in these categories are unlike colimits in $ Set $.
 For example, the underlying set of the initial object of $ Grp $ (which has one element) is not the initial object of $ Set $ (which has no elements), and the underlying set of the direct sum $ X oplus Y $ of two vector spaces is not the sum of the underlying sets of $ X $ and $ Y $.
 So, these forgetful functors interact well with limits and badly with colimits.
 In this section, we develop terminology that will enable us to express these thoughts precisely.
-[(b)] Let $ scat{I} $ be a small category.
+ Let $ scat{I} $ be a small category.
 A functor $ Ffrom cat{A} to cat{B} $ demph{preserves limits of shape $ scat{I} $ } if for all diagrams $ Dfrom scat{I} to cat{A} $ and all cones $ Bigl(A toby{p_I} D(I)Bigr)_{I in scat{I}} $ on $ D $ ,
 $ & Bigl(A toby{p_I} D(I)Bigr)_{I in scat{I}} text{ is a limit cone on } D text{ in }cat{A} implies & Bigl(F(A) toby{Fp_I} FD(I)Bigr)_{I in scat{I}} text{ is a limit cone on } F of D text{ in }cat{B}. $.
 A functor $ Ffrom cat{A} to cat{B} $ preserves limits if it preserves limits of shape $ scat{I} $ for all small categories $ scat{I} $.
@@ -803,11 +803,11 @@ Prove directly that $ cat{A}(A, X times Y) iso cat{A}(A, X) times cat{A}(A, Y) $
 By Exercise $ X $ , the assignment $ (X, Y) mapsto X times Y $ is then functorial, which it must be in order for `naturally' to make sense.)
 Prove that if a functor creates limits then it also reflects them.
 It was shown in Example $ X $ that the forgetful functor $ Ufrom Grp to Set $ creates binary products.
-[(b)]
+
 Using the formula for limits in $ Set $ (Example $ X $ ), prove that, in fact, $ U $ creates arbitrary limits.
 Satisfy yourself that the same is true if $ Grp $ is replaced by any other category of algebras such as $ Ring $ , $ Ab $ or $ Vect_k $.
 Prove Lemma $ X $.
-[(b)]
+
 An object $ P $ of a category $ cat{B} $ is projective if $ cat{B}(P, dashbk) from cat{B} to Set $ preserves epics.
 (This means that if $ f $ is epic then so is $ cat{B}(P, f) $.)
 Let $ hadjnli{Set}{cat{B}}{F}{G} $ be an adjunction in which $ G $ preserves epics.
@@ -855,7 +855,7 @@ The characterization $ X $ of cones suggests that we might consider varying the 
 We are naturally led to ask questions such as: given a map $ D to D' $ between diagrams, is there an induced map between the limits of $ D $ and $ D' $ ?
 The answer is yes (Figure $ X $ ): Let $ scat{I} $ be a small category and $ xymatrix@1{scat{I} rtwocell^D_{D'}{alpha} &cat{A}} $ a natural transformation.
 Let $ biggl(lt{scat{I}} D toby{p_I} D(I)biggr)_{I in scat{I}} qquad text{and} qquad biggl(lt{scat{I}} D' toby{p'_I} D'(I)biggr)_{I in scat{I}} $ be limit cones.
-Then: [(b)] there is a unique map $ lt{scat{I}} alpha from lt{scat{I}} D to lt{scat{I}} D' $ such that for all $ I in scat{I} $ , the square $ xymatrix{ lt{scat{I}} D ar[r]^ - {p_I} ar[d]_{lt{scat{I}} alpha} & D(I) ar[d]^{alpha_I} lt{scat{I}} D' ar[r]_ - {p'_I} & D'(I) } $ commutes; given cones $ Bigl(A toby{f_I} D(I)Bigr)_{I in scat{I}} $ and $ Bigl(A' toby{f'_I} D'(I)Bigr)_{I in scat{I}} $ and a map $ sfrom A to A' $ such that $ xymatrix{ A ar[r]^ - {f_I} ar[d]_s & D(I) ar[d]^{alpha_I} A' ar[r]_ - {f'_I} & D'(I) } $ commutes for all $ I in scat{I} $ , the square $ xymatrix{ A ar[r]^ - {bar{f}} ar[d]_s & lt{scat{I}} D ar[d]^{lt{scat{I}} alpha} A' ar[r]_ - {ovln{f'}} & lt{scat{I}} D' } $ also commutes.
+Then:  there is a unique map $ lt{scat{I}} alpha from lt{scat{I}} D to lt{scat{I}} D' $ such that for all $ I in scat{I} $ , the square $ xymatrix{ lt{scat{I}} D ar[r]^ - {p_I} ar[d]_{lt{scat{I}} alpha} & D(I) ar[d]^{alpha_I} lt{scat{I}} D' ar[r]_ - {p'_I} & D'(I) } $ commutes; given cones $ Bigl(A toby{f_I} D(I)Bigr)_{I in scat{I}} $ and $ Bigl(A' toby{f'_I} D'(I)Bigr)_{I in scat{I}} $ and a map $ sfrom A to A' $ such that $ xymatrix{ A ar[r]^ - {f_I} ar[d]_s & D(I) ar[d]^{alpha_I} A' ar[r]_ - {f'_I} & D'(I) } $ commutes for all $ I in scat{I} $ , the square $ xymatrix{ A ar[r]^ - {bar{f}} ar[d]_s & lt{scat{I}} D ar[d]^{lt{scat{I}} alpha} A' ar[r]_ - {ovln{f'}} & lt{scat{I}} D' } $ also commutes.
 Part $ X $ follows immediately from the fact that $ biggl(lt{scat{I}} D toby{alpha_I p_I} D'(I)biggr)_{I in scat{I}} $ is a cone on $ D' $.
 To prove $ X $ , note that for each $ I in scat{I} $ , we have $ p'_I of biggl(lt{scat{I}} alphabiggr) of bar{f} = alpha_I of p_I of bar{f} = alpha_I of f_I = f'_I of s = p'_I of ovln{f'} of s. $ So by Exercise $ X $ , $ biggl(lt{scat{I}} alpha biggr) of bar{f} = ovln{f'} of s $.
 We can now give the second rephrasing of the definition of limit.
@@ -945,7 +945,7 @@ The slogan means, for example, that given two functors $ X, Y in ftrcat{scat{A}}
 Of course, Theorem $ X $ has a dual, stating that colimits in a functor category are also computed pointwise.
 {Theorem $ X $ } Take for each $ A in scat{A} $ a limit cone $ Bigl( L(A) toby{p_{I, A}} D(I)(A) Bigr)_{I in scat{I}} $.
 on the diagram $ D(dashbk)(A)from scat{I} to cat{S} $.
-We prove two statements: [(b)]
+We prove two statements: 
 there is exactly one way of extending $ L $ to a functor on $ scat{A} $ with the property that $ Bigl(L toby{p_I} D(I)Bigr)_{I in scat{I}} $ is a cone on $ D $ ; this cone $ Bigl(L toby{p_I} D(I)Bigr)_{I in scat{I}} $ is a limit cone.
 The theorem will follow immediately.
 For $ X $ , take a map $ ffrom A to A' $ in $ scat{A} $.
@@ -1067,7 +1067,7 @@ Let us check that the way we did this is a special case of the general construct
 Since $ scat{A} $ is discrete, the category of elements $ elt{X} $ is also discrete; it is the set $ X(K) + X(L) $ with five elements.
 The projection $ Pfrom elt{X} to scat{A} $ sends three of the elements to $ K $ and the other two to $ L $ , so the diagram $ h_bl of Pfrom elt{X} to pshf{scat{A}} $ sends three of the elements to $ h_K $ and two to $ h_L $.
 The colimit of $ h_bl of P $ is the sum of these five representables, which is $ X $ , just as in Example $ X $.
-[(b)]
+
 The term `category of elements' is compatible with the generalized element terminology introduced in Definition $ X $.
 A generalized element of an object $ X $ is just a map into $ X $ , say $ Z to X $ ; but, as explained after that definition, we often focus on certain special shapes $ Z $.
 Now suppose that we are working in a presheaf category $ pshf{scat{A}} $.
@@ -1077,12 +1077,12 @@ In other words, they are the objects of the category of elements.
 In topology, a subspace $ A $ of a space $ B $ is called dense if every point in $ B $ can be obtained as a limit of points in $ A $.
 This provides some explanation for the name of Theorem $ X $ : the category $ scat{A} $ is `dense' in $ pshf{scat{A}} $ because every object of $ pshf{scat{A}} $ can be obtained as a colimit of objects of $ scat{A} $.
 exs Fix a small category $ scat{A} $.
-[(b)] Let $ cat{S} $ be a locally small category with pullbacks.
+ Let $ cat{S} $ be a locally small category with pullbacks.
 Show that a natural transformation $ xymatrix{ scat{A} rtwocell^X_Y{alpha} &cat{S} } $ is monic (as a map in $ ftrcat{scat{A}}{cat{S}} $ ) if and only if $ alpha_A $ is monic for all $ A in scat{A} $.
 (Hint: use Lemma $ X $.)
 Describe explicitly the monics and epics in $ pshf{scat{A}} $.
 Can you do part $ X $ without relying on the fact that limits and colimits of presheaves are computed pointwise?
-[(b)]
+
 Prove that representables have the following connectedness property: given a locally small category $ cat{A} $ and $ A in cat{A} $ , if $ X, Y in pshf{cat{A}} $ with $ h_A iso X + Y $ , then either $ X $ or $ Y $ is the constant functor $ emptyset $.
 Deduce that the sum of two representables is never representable.
 Show how a category of elements can be described as a comma category.
@@ -1094,7 +1094,7 @@ Prove that every slice of a presheaf category is again a presheaf category.
 That is, given a small category $ scat{A} $ and a presheaf $ X $ on $ scat{A} $ , prove that $ pshf{scat{A}}/X $ is equivalent to $ pshf{scat{B}} $ for some small category $ scat{B} $.
 Let $ Ffrom scat{A} to scat{B} $ be a functor between small categories.
 For each object $ B in scat{B} $ , there is a comma category $ comma{F}{B} $ (defined dually to the comma category in Example $ X $ ), and there is a projection functor $ P_B from comma{F}{B} to scat{A} $.
-[(b)] Let $ X from scat{A} to cat{S} $ be a functor from $ scat{A} $ to a category $ cat{S} $ with small colimits.
+ Let $ X from scat{A} to cat{S} $ be a functor from $ scat{A} $ to a category $ cat{S} $ with small colimits.
 For each $ B in scat{B} $ , let $ (Lan_F X)(B) $ be the colimit of the diagram
 $ comma{F}{B} toby{P_B} scat{A} toby{X} cat{S}. $ Show that this defines a functor $ Lan_F Xfrom scat{B} to cat{S} $ , and that for functors $ Y from scat{B} to cat{S} $ , there is a canonical bijection between natural transformations $ Lan_F X to Y $ and natural transformations $ X to Y of F $.
 Deduce that for any category $ cat{S} $ with small colimits, the functor $ dashbk of F from ftrcat{scat{B}}{cat{S}} to ftrcat{scat{A}}{cat{S}} $ has a left adjoint.
@@ -1296,15 +1296,15 @@ By definition, a topos is a cartesian closed category with finite limits and wit
 For example, the two - element set $ 2 $ is the subobject classifier of $ Set $ , which means, informally, that subsets of a set $ A $ correspond one - to - one with maps $ A to 2 $.
 Exercises $ X $ and $ X $ give the formal definition of subobject classifier, then guide you through the proof that $ Set $ , and, more generally, every presheaf category, is a topos.
 exs
-[(b)] Prove that the forgetful functor $ Ufrom Grp to Set $ has no right adjoint.
+ Prove that the forgetful functor $ Ufrom Grp to Set $ has no right adjoint.
 Prove that the chain of adjunctions $ C ladj D ladj O ladj I $ in Exercise $ X $ extends no further in either direction.
 Does the chain of adjunctions in Exercise $ X $ extend further in either direction?
 Let $ cat{A} $ be a locally small category.
 For functors $ Ufrom cat{A} to Set $ , consider the following three conditions: (A) $ U $ has a left adjoint; (R) $ U $ is representable; (L) $ U $ preserves limits.
-[(b)] Show that (A) $ textonlyif $ (R) $ textonlyif $ (L).
+ Show that (A) $ textonlyif $ (R) $ textonlyif $ (L).
 Show that if $ cat{A} $ has sums then (R) $ textonlyif $ (A).
 (If $ cat{A} $ satisfies the hypotheses of the special adjoint functor theorem then also (L) $ textonlyif $ (A), so the three conditions are equivalent.)
-[(b)] Prove that every preordered set is equivalent (as a category) to an ordered set.
+ Prove that every preordered set is equivalent (as a category) to an ordered set.
 Let $ cat{A} $ be a category with all small products.
 Suppose that $ cat{A} $ is not a preorder, so that there exists a parallel pair of maps $ parpairi{A}{B}{f}{g} $ in $ cat{A} $ with $ f neq g $.
 By considering the maps $ A to B^I $ for each set $ I $ , prove that $ cat{A} $ is not small.
@@ -1313,7 +1313,7 @@ Adapt the argument to prove that every finite category with finite products is e
 Probably the most important application of the general adjoint functor theorem is to proving that forgetful functors between categories of algebras have left adjoints (Example $ X $ ).
 Verifying the hypotheses can be done with some cardinal arithmetic.
 Here is a typical example.
-[(b)] Let $ A $ be a set.
+ Let $ A $ be a set.
 Prove that for any group $ G $ and family $ (g_a)_{a in A} $ of elements of $ G $ , the subgroup of $ G $ generated by $ {g_a such a in A } $ has cardinality at most $ max {crd{nat}, crd{A} } $.
 Prove that for any set $ S $ , the collection of isomorphism classes of groups of cardinality at most $ crd{S} $ is small.
 Let $ Ufrom Grp to Set $ be the forgetful functor from groups to sets.
@@ -1325,7 +1325,7 @@ Recall from Exercise $ X $ the notion of subobject.
 A category $ cat{A} $ is well - powered if for each $ A in cat{A} $ , the class of subobjects of $ A $ is small, that is, a set.
 (All of our usual examples of categories are well - powered.)
 Let $ cat{A} $ be a well - powered category with pullbacks, and write $ Sub(A) $ for the set of subobjects of an object $ A in cat{A} $.
-[(b)] Deduce from Exercise $ X $ that any map $ A' toby{f} A $ in $ cat{A} $ induces a map $ Sub(f)from Sub(A) to Sub(A') $.
+ Deduce from Exercise $ X $ that any map $ A' toby{f} A $ in $ cat{A} $ induces a map $ Sub(f)from Sub(A) to Sub(A') $.
 Show that this determines a functor $ Subfrom cat{A}^op to Set $.
 (Hint: use Exercise $ X $.)
 For some categories $ cat{A} $ , the functor $ Sub $ is representable.
@@ -1335,7 +1335,7 @@ A topos is a cartesian closed category with finite limits and a subobject classi
 You have just completed the proof that $ Set $ is a topos.
 This exercise follows on from the last, culminating in the proof that every presheaf category is a topos.
 Let $ scat{A} $ be a small category.
-[(b)]
+
 By conducting a thought experiment similar to the one before the statement of Theorem $ X $ , find out what the subobject classifier $ Omega $ of $ pshf{scat{A}} $ must be if it exists.
 Prove that this $ Omega $ is indeed a subobject classifier.
 Conclude that $ pshf{scat{A}} $ is a topos.
@@ -1487,7 +1487,6 @@ In this metaphor, the foundation consists of the basic concepts (set and functio
 On top of the foundations are built some basic definitions and theorems.
 On top of those are built further definitions and theorems, and so on, towering upwards.
 The properties above are stated informally, but they can be formalized using some categorical language.
-(See citeLR or citeRST.)
 In the formal version, we begin by saying that sets and functions form a category, $ Set $.
 We then list some properties of this category.
 For example, the category is required to have an initial and a terminal object, and the properties described informally under the headings `Products' and `Equalizers' are made formal by the statement that $ Set $ `has limits' (a phrase defined in Chapter $ X $ ).
@@ -1544,7 +1543,6 @@ Recall that $ pset(A) $ is the power set of $ A $.
 The lemma is easy for finite sets, since if $ A $ has $ n $ elements then $ pset(A) $ has $ 2^n $ elements, and $ n < 2^n $.
 Exercise $ X $.
 For every set $ A $ , there is a set $ B $ such that $ crd{A} < crd{B} $.
-qed
 In other words, there is no biggest set.
 We now justify the claim made at the beginning of this section: that for many familiar categories, the collection of isomorphism classes of objects is too large to form a set.
 We begin by doing this for the category $ Set $ itself.
@@ -1602,18 +1600,17 @@ Monoids are by definition sets equipped with certain structure, so the one - obj
 Let $ cat{M} $ be the full subcategory of $ Cat $ consisting of the one - object categories.
 Then there is an equivalence of categories $ Mon eqv cat{M} $.
 This is proved by the argument in Example $ X $ , noting that because each object of $ cat{M} $ is a small one - object category, the collection of maps from the single object to itself really is a set.
-exs
-[(b)] Let $ A $ be a set.
+ Let $ A $ be a set.
 Let $ thetafrom pset(A) to pset(A) $ be a map that is order - preserving with respect to inclusion.
 A demph{fixed point} of $ theta $ is an element $ S in pset(A) $ such that $ theta(S) = S $.
 By considering $ S = bigcup_{R in pset(A) colon theta(R) supseteq R} R, $ prove that $ theta $ has at least one fixed point.
 Take sets and functions $ oppairi{A}{B}{f}{g} $.
 Using $ X $ , show that there is some subset $ S $ of $ A $ such that $ g(B without fS) = A without S $.
 Deduce the Cantor - - Bernstein theorem (Theorem $ X $ ).
-[(b)] Let $ A $ be a set and $ ffrom A to pset(A) $ a function.
+ Let $ A $ be a set and $ ffrom A to pset(A) $ a function.
 By considering $ { a in A such a notin f(a) } , $ prove that $ f $ is not surjective.
 Deduce Cantor's theorem (Theorem $ X $ ): $ crd{A} < crd{pset(A)} $ for all sets $ A $.
-[(b)] Let $ cat{A} $ be a category.
+ Let $ cat{A} $ be a category.
 Suppose there exists a functor $ Ufrom cat{A} to Set $ such that $ U $ has a left adjoint and for at least one $ A in cat{A} $ , the set $ U(A) $ has at least two elements.
 Prove that for any set $ I $ and any family $ (A_i)_{i in I} $ of objects of $ cat{A} $ , there is some object of $ cat{A} $ not isomorphic to $ A_i $ for any $ i in I $.
 (Hint: use Exercise $ X $.)
@@ -1622,7 +1619,7 @@ Prove that $ cat{A} $ is not essentially small.
 Deduce that none of the categories $ Set $ , $ Vect_k $ , $ Grp $ , $ Ab $ , $ Ring $ , and $ Tp $ is essentially small.
 Which of the following categories are small?
 Which are locally small?
-[(b)] $ Mon $ , the category of monoids; $ integers $ , the group of integers, viewed as a one - object category; $ integers $ , the ordered set of integers; $ Cat $ , the category of small categories; the multiplicative monoid of cardinals.
+ $ Mon $ , the category of monoids; $ integers $ , the group of integers, viewed as a one - object category; $ integers $ , the ordered set of integers; $ Cat $ , the category of small categories; the multiplicative monoid of cardinals.
 Let $ Ofrom Cat to Set $ be the functor sending a small category to its set of objects.
 Exhibit a chain of adjoints $ C ladj D ladj O ladj I $.
 The set theory that we began to develop in Section $ X $ is rather different from what many mathematicians think of as set theory.
@@ -1665,8 +1662,7 @@ In the Zermelo approach, everything is a set.
 For instance, a function is defined as a set with certain properties.
 Many other things that you would not think of as being sets are, nevertheless, treated as sets: the number $ sqrt{2} $ is a set, the function $ log $ is a set, the operator $ frac{d}{dx} $ is a set, and so on.
 You might wonder how this is possible.
-Perhaps it is useful to compare data storage in a computer, where files of all different types (text, sound, images, and so on) are ultimately encoded as sequences of $ 0 $ s and $ 1 $ s. To give an example, in the membership - based set theory presented in most books, the number $ 4 $ is encoded as the set
-$ { emptyset, { emptyset } , { emptyset, { emptyset } } , { emptyset, { emptyset } , { emptyset, { emptyset } } } }. $ The virtue of this approach is its simplicity: everything is a set!
+Perhaps it is useful to compare data storage in a computer, where files of all different types (text, sound, images, and so on) are ultimately encoded as sequences of $ 0 $ s and $ 1 $ s. To give an example, in the membership - based set theory presented in most books, the number $ 4 $ is encoded as the set $ { emptyset, { emptyset } , { emptyset, { emptyset } } , { emptyset, { emptyset } , { emptyset, { emptyset } } } }. $ The virtue of this approach is its simplicity: everything is a set!
 But the price to be paid is very high: we lose the fundamental notion of type, precisely because everything is regarded as being of type `set'.
 In the Zermelo approach, the elements of sets are always sets too.
 This is in conflict with ordinary mathematics.
@@ -1680,7 +1676,7 @@ This makes possible further nonsensical questions such as `does the cyclic group
 The answers to these nonsensical questions depend on the fine detail of how mathematical objects (numbers, functions, groups, etc.) are encoded as sets.
 Even devotees of the membership - based approach agree that this encoding is a matter of convention, just like a word processor's encoding of a document as a string of $ 0 $ s and $ 1 $ s.
 So the answers to these questions are meaningless.
-paragraph*{Set theory today} It should now be apparent why many modern - day mathematicians are suspicious of set theory.
+It should now be apparent why many modern - day mathematicians are suspicious of set theory.
 However often they are told that it is `the foundation of mathematics', they feel that much of it is irrelevant to their concerns.
 To some extent, this is justified.
 But it is also a symptom of the historical dominance of membership - based set theory: most mathematicians do not realize that there is any other kind.
@@ -1742,7 +1738,6 @@ Its tentacles extend into most parts of pure mathematics.
 They also reach some parts of applied mathematics; perhaps most notably, category theory has become a standard tool in certain parts of computer science.
 Applied mathematics is more than just applied differential equations!
 A category $ cat{A} $ consists of: a collection $ ob(cat{A}) $ of objects; for each $ A, B in ob(cat{A}) $ , a collection $ cat{A}(A, B) $ of maps or arrows or morphisms from $ A $ to $ B $ ; for each $ A, B, C in ob(cat{A}) $ , a function $ {ccc} cat{A}(B, C) times cat{A}(A, B) & to & cat{A}(A, C) (g, f) & mapsto & g of f, $ called composition; for each $ A in ob(cat{A}) $ , an element $ 1_A $ of $ cat{A}(A, A) $ , called the identity on $ A $ , satisfying the following axioms: associativity: for each $ f in cat{A}(A, B) $ , $ g in cat{A}(B, C) $ and $ h in cat{A}(C, D) $ , we have $ (h of g) of f = h of (g of f) $ ; demph{identity laws}: for each $ f in cat{A}(A, B) $ , we have $ f of 1_A = f = 1_B of f $.
-[(b)]
 We often write: {rcl} $ A in cat{A} $ &to mean & $ A in ob(cat{A}) $ ; $ ffrom Ato B $ or $ A toby{f} B $ &to mean & $ f in cat{A}(A, B) $ ; $ gf $ &to mean & $ g of f $.
 People also write $ cat{A}(A, B) $ as $ Hom_{cat{A}}(A, B) $ or $ Hom (A, B) $.
 The notation ` $ Hom $ ' stands for homomorphism, from one of the earliest examples of a category.
@@ -1762,8 +1757,6 @@ We come back to this in Chapter $ X $.
 If $ f in cat{A}(A, B) $ , we call $ A $ the domain and $ B $ the codomain of $ f $.
 Every map in every category has a definite domain and a definite codomain.
 (If you believe it makes sense to form the intersection of an arbitrary pair of abstract sets, you should add to the definition of category the condition that $ cat{A}(A, B) cap cat{A}(A', B') = emptyset $ unless $ A = A' $ and $ B = B' $.)
-[Categories :of :mathematical :structures]
-[(b)]
 There is a category $ Set $ described as follows.
 Its objects are sets.
 Given sets $ A $ and $ B $ , a map from $ A $ to $ B $ in the category $ Set $ is exactly what is ordinarily called a map (or mapping, or function) from $ A $ to $ B $.
@@ -1806,7 +1799,7 @@ The next few examples illustrate these points.
 They also show that, contrary to the impression that might have been given so far, categories need not be enormous.
 Some categories are small, manageable structures in their own right, as we now see.
 [Categories , as , mathematical , structures]
-[(b)]
+
 A category can be specified by saying directly what its objects, maps, composition and identities are.
 For example, there is a category $ emptyset $ with no objects or maps at all.
 There is a category $ One $ with one object and only the identity map.
@@ -1896,7 +1889,6 @@ We can ask this about categories themselves.
 The answer is yes, and a map between categories is called a functor.
 Let $ cat{A} $ and $ cat{B} $ be categories.
 A functor $ Ffrom cat{A} to cat{B} $ consists of: a function $ ob(cat{A}) to ob(cat{B}), $ written as $ A mapsto F(A) $ ; for each $ A, A' in cat{A} $ , a function $ cat{A}(A, A') to cat{B}(F(A), F(A')), $ written as $ f mapsto F(f) $ , satisfying the following axioms: $ F(f' of f) = F(f') of F(f) $ whenever $ A toby{f} A' toby{f'} A'' $ in $ cat{A} $ ; $ F(1_A) = 1_{F(A)} $ whenever $ A in cat{A} $.
-[(b)]
 The definition of functor is set up so that from each string $ A_0 toby{f_1} cdots toby{f_n} A_n $ of maps in $ cat{A} $ (with $ n geq 0 $ ), it is possible to construct exactly one map $ F(A_0) to F(A_n) $ in $ cat{B} $.
 For example, given maps $ A_0 toby{f_1} A_1 toby{f_2} A_2 toby{f_3} A_3 toby{f_4} A_4 $ in $ cat{A} $ , we can construct maps $ xymatrix@=10em{ F(A_0) ar@<1ex>[r]^{F(f_4 f_3) F(f_2 f_1)} ar@< - 1ex>[r]_{F(1_{A_4}) F(f_4) F(f_3 f_2) F(f_1)} & F(A_4) } $ in $ cat{B} $ , but the axioms imply that they are equal.
 We are familiar with the idea that structures and the structure - preserving maps between them form a category (such as $ Grp $ , $ Ring $ , etc.).
@@ -1906,8 +1898,6 @@ That is, given functors $ cat{A} toby{F} cat{B} toby{G} cat{C} $ , there arises 
 Another is that for every category $ cat{A} $ , there is an identity functor $ 1_cat{A}from cat{A} to cat{A} $.
 Perhaps the easiest examples of functors are the so - called demph{forgetful functors}.
 (This is an informal term, with no precise definition.)
-For instance:
-[(b)]
 There is a functor $ Ufrom Grp to Set $ defined as follows: if $ G $ is a group then $ U(G) $ is the underlying set of $ G $ (that is, its set of elements), and if $ ffrom G to H $ is a group homomorphism then $ U(f) $ is the function $ f $ itself.
 So $ U $ forgets the group structure of groups and forgets that group homomorphisms are homomorphisms.
 Similarly, there is a functor $ Ring to Set $ forgetting the ring structure on rings, and (for any field $ k $ ) there is a functor $ Vect_k to Set $ forgetting the vector space structure on vector spaces.
@@ -1926,7 +1916,7 @@ For example, it is a theorem that the order of any finite field is a prime power
 An important step in the proof is to simply forget that the field is a field, remembering only that it is a vector space over its subfield $ {0, 1, 1 + 1, 1 + 1 + 1, ldots } $.
 demph{Free functors} are in some sense dual to forgetful functors (as we will see in the next chapter), although they are less elementary.
 Again, `free functor' is an informal but useful term.
-[(b)] Given any set $ S $ , one can build the demph{free group} $ F(S) $ on $ S $.
+ Given any set $ S $ , one can build the demph{free group} $ F(S) $ on $ S $.
 This is a group containing $ S $ as a subset and with no further properties other than those it is forced to have, in a sense made precise in Section $ X $.
 Intuitively, the group $ F(S) $ is obtained from the set $ S $ by adding just enough new elements that it becomes a group, but without imposing any equations other than those forced by the definition of group.
 A little more precisely, the elements of $ F(S) $ are formal expressions or words such as $ x^{ - 4} y x^2 z y^{ - 3} $ (where $ x, y, z in S $ ).
@@ -1959,7 +1949,7 @@ We return to this point in Example $ X $ and Example $ X $ (where we see how to 
 [Functors in algebraic topology] Historically, some of the first examples of functors arose in algebraic topology.
 There, the strategy is to learn about a space by extracting data from it in some clever way, assembling that data into an algebraic structure, then studying the algebraic structure instead of the original space.
 Algebraic topology therefore involves many functors from categories of spaces to categories of algebras.
-[(b)] Let $ Tp_* $ be the category of topological spaces equipped with a basepoint, together with the continuous basepoint - preserving maps.
+ Let $ Tp_* $ be the category of topological spaces equipped with a basepoint, together with the continuous basepoint - preserving maps.
 There is a functor $ pi_1from Tp_* to Grp $ assigning to each space $ X $ with basepoint $ x $ the fundamental group $ pi_1(X, x) $ of $ X $ at $ x $.
 (Some texts use the simpler notation $ pi_1(X) $ , ignoring the choice of basepoint.
 This is more or less safe if $ X $ is path - connected, but strictly speaking, the basepoint should always be specified.)
@@ -2059,7 +2049,7 @@ That is, prove that if $ Ffrom cat{A} to cat{B} $ is a functor and $ A, A' in ca
 Prove the assertion made in Example $ X $.
 In other words, given ordered sets $ A $ and $ B $ , and denoting by $ cat{A} $ and $ cat{B} $ the corresponding categories, show that a functor $ cat{A} to cat{B} $ amounts to an order - preserving map $ A to B $.
 Two categories $ cat{A} $ and $ cat{B} $ are isomorphic, written as $ cat{A} iso cat{B} $ , if they are isomorphic as objects of $ CAT $.
-[(b)] Let $ G $ be a group, regarded as a one - object category all of whose maps are isomorphisms.
+ Let $ G $ be a group, regarded as a one - object category all of whose maps are isomorphisms.
 Then its opposite $ G^op $ is also a one - object category all of whose maps are isomorphisms, and can therefore be regarded as a group too.
 What is $ G^op $ , in purely group - theoretic terms?
 Prove that $ G $ is isomorphic to $ G^op $.
@@ -2068,7 +2058,7 @@ Is there a functor $ Z from Grp to Grp $ with the property that $ Z(G) $ is the 
 Sometimes we meet functors whose domain is a product $ cat{A} times cat{B} $ of categories.
 Here you will show that such a functor can be regarded as an interlocking pair of families of functors, one defined on $ cat{A} $ and the other defined on $ cat{B} $.
 (This is very like the situation for bilinear and linear maps.)
-[(b)] Let $ Ffrom cat{A} times cat{B} to cat{C} $ be a functor.
+ Let $ Ffrom cat{A} times cat{B} to cat{C} $ be a functor.
 Prove that for each $ A in cat{A} $ , there is a functor $ F^Afrom cat{B} to cat{C} $ defined on objects $ B in cat{B} $ by $ F^A(B) = F(A, B) $ and on maps $ g $ in $ cat{B} $ by $ F^A(g) = F(1_A, g) $.
 Prove that for each $ B in cat{B} $ , there is a functor $ F_B from cat{A} to cat{C} $ defined similarly.
 Let $ F from cat{A} times cat{B} to cat{C} $ be a functor.
@@ -2078,10 +2068,8 @@ Prove that there is a unique functor $ Ffrom cat{A} times cat{B} to cat{C} $ sat
 (`There is a unique functor' means in particular that there is a functor, so you have to prove existence as well as uniqueness.)
 Fill in the details of Example $ X $ , thus constructing a functor $ Cfrom Tp^op to Ring $.
 Find an example of a functor $ Ffrom cat{A} to cat{B} $ such that $ F $ is faithful but there exist distinct maps $ f_1 $ and $ f_2 $ in $ cat{A} $ with $ F(f_1) = F(f_2) $.
-[(b)]
 Of the examples of functors appearing in this section, which are faithful and which are full?
 Write down one example of a functor that is both full and faithful, one that is full but not faithful, one that is faithful but not full, and one that is neither.
-[(b)]
 What are the subcategories of an ordered set?
 Which are full?
 What are the subcategories of a group?
@@ -2106,7 +2094,6 @@ Let $ cat{A} $ and $ cat{B} $ be categories and let $ parpairi{cat{A}}{cat{B}}{F
 A demph{natural transformation} $ alphafrom F to G $ is a family $ Bigl( F(A) toby{alpha_A} G(A) Bigr)_{A in cat{A}} $ of maps in $ cat{B} $ such that for every map $ A toby{f} A' $ in $ cat{A} $ , the square $ {c} xymatrix{ F(A) ar[r]^{F(f)} ar[d]_{alpha_A} & F(A') ar[d]^{alpha_{A'}} G(A) ar[r]_{G(f)} & G(A') } $.
 commutes.
 The maps $ alpha_A $ are called the components of $ alpha $.
-[(b)]
 The definition of natural transformation is set up so that from each map $ A toby{f} A' $ in $ cat{A} $ , it is possible to construct exactly one map $ F(A) to G(A') $ in $ cat{B} $.
 When $ f = 1_A $ , this map is $ alpha_A $.
 For a general $ f $ , it is the diagonal of the square $ X $ , and `exactly one' implies that the square commutes.
@@ -2204,9 +2191,8 @@ such that $ G of F = 1_cat{A} qquad text{and} qquad F of G = 1_cat{B}, $.
 and we have just seen that the notion of equality between functors is too strict.
 The most useful notion of sameness of categories, called `equivalence', is looser than isomorphism.
 To obtain the definition, we simply replace the unreasonably strict equalities in $ X $ by isomorphisms.
-This gives
-$ G of F iso 1_cat{A} qquad text{and} qquad F of G iso 1_cat{B}. $ An equivalence between categories $ cat{A} $ and $ cat{B} $ consists of a pair $ X $ of functors together with natural isomorphisms
-$ etafrom 1_cat{A} to G of F, qquad epslnfrom F of G to 1_cat{B}. $ If there exists an equivalence between $ cat{A} $ and $ cat{B} $ , we say that $ cat{A} $ and $ cat{B} $ are equivalent, and write $ cat{A} eqv cat{B} $.
+This gives $ G of F iso 1_cat{A} qquad text{and} qquad F of G iso 1_cat{B}. $ An equivalence between categories $ cat{A} $ and $ cat{B} $ consists of a pair $ X $ of functors together with natural isomorphisms $ etafrom 1_cat{A} to G of F, qquad epslnfrom F of G to 1_cat{B} $. 
+If there exists an equivalence between $ cat{A} $ and $ cat{B} $ , we say that $ cat{A} $ and $ cat{B} $ are equivalent, and write $ cat{A} eqv cat{B} $.
 We also say that the functors $ F $ and $ G $ are equivalences.
 The directions of $ eta $ and $ epsln $ are not very important, since they are isomorphisms anyway.
 The reason for this particular choice will become apparent when we come to discuss adjunctions (Section $ X $ ).
@@ -2248,7 +2234,7 @@ One says that $ cat{A} $ is dual to $ cat{B} $.
 There are many famous dualities in which $ cat{A} $ is a category of algebras and $ cat{B} $ is a category of spaces; recall the slogan `algebra is dual to geometry' from Example $ X $.
 Here are some quite advanced examples, well beyond the scope of this book.
 Stone duality: the category of Boolean algebras is dual to the category of totally disconnected compact Hausdorff spaces.
-Gelfand - - Naimark duality: the category of commutative unital $ C^* $ - algebras is dual to the category of compact Hausdorff spaces.
+Gelfand - Naimark duality: the category of commutative unital $ C^* $ - algebras is dual to the category of compact Hausdorff spaces. 
 ( $ C^* $ - algebras are certain algebraic structures important in functional analysis.)
 Algebraic geometers have several notions of `space', one of which is `affine variety'.
 Let $ k $ be an algebraically closed field.
@@ -2286,7 +2272,7 @@ Prove Lemma $ X $.
 Let $ cat{A} $ and $ cat{B} $ be categories.
 Prove that $ ftrcat{cat{A}^op}{cat{B}^op} iso ftrcat{cat{A}}{cat{B}}^op $.
 Let $ A $ and $ B $ be sets, and denote by $ B^A $ the set of functions from $ A $ to $ B $.
-Write down: [(b)] a canonical function $ A times B^A to B $ ; a canonical function $ A to B^{(B^A)} $.
+Write down:  a canonical function $ A times B^A to B $ ; a canonical function $ A to B^{(B^A)} $.
 (Although in principle there could be many such canonical functions, in both these cases there is only one.)
 Here we consider natural transformations between functors whose domain is a product category $ cat{A} times cat{B} $.
 Your task is to show that naturality in two variables simultaneously is equivalent to naturality in each variable separately.
@@ -2308,7 +2294,7 @@ Write $ Sym(X) $ for the set of permutations of $ X $.
 A demph{total order} on a set $ X $ is an order $ leq $ such that for all $ x, y in X $ , either $ x leq y $ or $ y leq x $ ; so a total order on a finite set amounts to a way of placing its elements in sequence.
 Write $ Ord(X) $ for the set of total orders on $ X $.
 Let $ cat{B} $ denote the category of finite sets and bijections.
-[(b)] Give a definition of $ Sym $ on maps in $ cat{B} $ in such a way that $ Sym $ becomes a functor $ cat{B} to Set $.
+ Give a definition of $ Sym $ on maps in $ cat{B} $ in such a way that $ Sym $ becomes a functor $ cat{B} to Set $.
 Do the same for $ Ord $.
 Both your definitions should be canonical (no arbitrary choices).
 Show that there is no natural transformation $ Sym to Ord $.
@@ -2318,7 +2304,7 @@ Conclude that $ Sym(X) iso Ord(X) $ for all $ X in cat{B} $ , but not naturally 
 (The moral is that for each finite set $ X $ , there are exactly as many permutations of $ X $ as there are total orders on $ X $ , but there is no natural way of matching them up.)
 In this exercise, you will prove Proposition $ X $.
 Let $ F from cat{A} to cat{B} $ be a functor.
-[(b)] Suppose that $ F $ is an equivalence.
+ Suppose that $ F $ is an equivalence.
 Prove that $ F $ is full, faithful and essentially surjective on objects.
 (Hint: prove faithfulness before fullness.)
 Now suppose instead that $ F $ is full, faithful and essentially surjective on objects.
@@ -2363,7 +2349,7 @@ To each $ B in cat{A} $ , there is assigned the set (or class) $ cat{A}(A, B) $ 
 The content of the following definition is that this assignation is functorial in $ B $ : any map $ B to B' $ induces a function $ cat{A}(A, B) to cat{A}(A, B') $.
 Let $ cat{A} $ be a locally small category and $ A in cat{A} $.
 We define a functor $ h^A = cat{A}(A, dashbk)from cat{A} to Set $ as follows: for objects $ B in cat{A} $ , put $ h^A(B) = cat{A}(A, B) $ ; for maps $ B toby{g} B' $ in $ cat{A} $ , define $ h^A(g) = cat{A}(A, g)from cat{A}(A, B) to cat{A}(A, B') $ by $ p mapsto g of p $ for all $ pfrom A to B $.
-[(b)] Recall that `locally small' means that each class $ cat{A}(A, B) $ is in fact a set.
+ Recall that `locally small' means that each class $ cat{A}(A, B) $ is in fact a set.
 This hypothesis is clearly necessary in order for the definition to make sense.
 Sometimes $ h^A(g) $ is written as $ g of dashbk $ or $ g_* $.
 All three forms, as well as $ cat{A}(A, g) $ , are in use.
@@ -2689,7 +2675,7 @@ In general, full subcategories are the easiest subcategories to handle.
 For instance, given objects $ A $ and $ A' $ of a full subcategory, we can speak unambiguously of the `maps' from $ A $ to $ A' $ ; it makes no difference whether this is understood to mean maps in the subcategory or maps in the whole category.
 Similarly, we can speak unambiguously of isomorphism of objects of the subcategory, as in the following lemma.
 Let $ Jfrom cat{A} to cat{B} $ be a full and faithful functor and $ A, A' in cat{A} $.
-Then: [(b)] a map $ f $ in $ cat{A} $ is an isomorphism if and only if the map $ J(f) $ in $ cat{B} $ is an isomorphism; for any isomorphism $ gfrom J(A) to J(A') $ in $ cat{B} $ , there is a unique isomorphism $ ffrom A to A' $ in $ cat{A} $ such that $ J(f) = g $ ; the objects $ A $ and $ A' $ of $ cat{A} $ are isomorphic if and only if the objects $ J(A) $ and $ J(A') $ of $ cat{B} $ are isomorphic.
+Then:  a map $ f $ in $ cat{A} $ is an isomorphism if and only if the map $ J(f) $ in $ cat{B} $ is an isomorphism; for any isomorphism $ gfrom J(A) to J(A') $ in $ cat{B} $ , there is a unique isomorphism $ ffrom A to A' $ in $ cat{A} $ such that $ J(f) = g $ ; the objects $ A $ and $ A' $ of $ cat{A} $ are isomorphic if and only if the objects $ J(A) $ and $ J(A') $ of $ cat{B} $ are isomorphic.
 Exercise $ X $.
 In Example $ X $ , we considered the representations of the forgetful functor $ Ufrom Grp to Set $ , and found two different isomorphismslinebreak $ h^integers toiso U $.
 Did we find all of them?
@@ -2796,7 +2782,7 @@ However, you can bypass that process completely, just by knowing that $ F $ is t
 Since $ G $ can have only one left adjoint, this characterizes $ F $ completely.
 In a sense, it tells you all you need to know.
 Forgetful functors between categories of algebraic structures usually have left adjoints.
-For instance: [(b)] Let $ k $ be a field.
+For instance:  Let $ k $ be a field.
 There is an adjunction $ adjn{Vect_k}{Set, }{F}{U} $ where $ U $ is the forgetful functor of Example $ X $ and $ F $ is the free functor of Example $ X $.
 Adjointness says that given a set $ S $ and a vector space $ V $ , a linear map $ F(S) to V $ is essentially the same thing as a function $ S to U(V) $.
 We saw this in Example $ X $ , but let us now check it in detail.
@@ -2955,7 +2941,7 @@ For any map $ g from F(A) to B $ , we have $ ovln{Bigl(F(A) toby{g} BBigr)} & = 
 by equation $ X $ , giving the first statement.
 The second follows by duality.
 Take categories and functors $ oppairi{cat{A}}{cat{B}}{F}{G} $.
-There is a one - to - one correspondence between: [(b)] adjunctions between $ F $ and $ G $ (with $ F $ on the left and $ G $ on the right); pairs $ Bigl(1_cat{A} toby{eta} GF, FG toby{epsln} 1_cat{B}Bigr) $ of natural transformations satisfying the triangle identities.
+There is a one - to - one correspondence between:  adjunctions between $ F $ and $ G $ (with $ F $ on the left and $ G $ on the right); pairs $ Bigl(1_cat{A} toby{eta} GF, FG toby{epsln} 1_cat{B}Bigr) $ of natural transformations satisfying the triangle identities.
 (Recall that by definition, an adjunction between $ F $ and $ G $ is a choice of isomorphism $ X $ for each $ A $ and $ B $ , satisfying the naturality equations $ X $ and $ X $.)
 We have shown that every adjunction between $ F $ and $ G $ gives rise to a pair $ (eta, epsln) $ satisfying the triangle identities.
 We now have to show that this process is bijective.
@@ -3004,18 +2990,18 @@ The identity on a functor $ F $ is drawn as a simple string, $ xymatrix{ F ar@{ 
 The unit and counit are drawn as $ {c} xymatrix@C - 2ex{ & *+<1pc>[o][F - ]{eta} F ar@/^/@{ - }[ur]& & G ar@/_/@{ - }[ul] } qquad text{and} qquad {c} xymatrix@C - 2ex{ Gar@/_/@{ - }[dr]& & Far@/^/@{ - }[dl] & *+<1pc>[o][F - ]{epsln} } $ The triangle identities now become the topologically plausible equations $ !{c} xymatrix@C - (iii)5ex@R - (i)8ex{ &&& Far@/^.8pc/@{ - }[ddl] & *+<1pc>[o][F - ]{eta} ar@{ - }[dr]|*{G} && && *+<1pc>[o][F - ]{epsln} & Far@/^.8pc/@{ - }[uur] &&& } = {c} xymatrix@C - (iii)5ex@R - (i)8ex{ F ar@{ - }[dddd] F } qquadtext{and}qquad {c} xymatrix@C - (iii)5ex@R - (i)8ex{ Gar@/_.8pc/@{ - }[ddr]&&& && *+<1pc>[o][F - ]{eta} ar@{ - }[dl]|*{F} & & *+<1pc>[o][F - ]{epsln} && &&& Gar@/_.8pc/@{ - }[uul] } = {c} xymatrix@C - (iii)5ex@R - (i)8ex{ G ar@{ - }[dddd] G } $ In both equations, the right - hand side is obtained from the left by simply pulling the string straight.
 exs Let $ oppairi{A}{B}{f}{g} $ be order - preserving maps between ordered sets.
 Prove directly that the following conditions are equivalent:
-[(b)] for all $ a in A $ and $ b in B $ , $ f(a) leq b iff a leq g(b); $ $ a leq g(f(a)) $ for all $ a in A $ and $ f(g(b)) leq b $ for all $ b in B $.
+ for all $ a in A $ and $ b in B $ , $ f(a) leq b iff a leq g(b); $ $ a leq g(f(a)) $ for all $ a in A $ and $ f(g(b)) leq b $ for all $ b in B $.
 (Both conditions state that $ f ladj g $ ; see Example $ X $.)
-[(b)] Let $ hadjnli{cat{A}}{cat{B}}{F}{G} $ be an adjunction with unit $ eta $ and counit $ epsln $.
+ Let $ hadjnli{cat{A}}{cat{B}}{F}{G} $ be an adjunction with unit $ eta $ and counit $ epsln $.
 Write $ Fix(GF) $ for the full subcategory of $ cat{A} $ whose objects are those $ A in cat{A} $ such that $ eta_A $ is an isomorphism, and dually $ Fix(FG) sub cat{B} $.
 Prove that the adjunction $ (F, G, eta, epsln) $ restricts to an equivalence $ (F', G', eta', epsln') $ between $ Fix(GF) $ and $ Fix(FG) $.
 Part $ X $ shows that every adjunction restricts to an equivalence between full subcategories in a canonical way.
 Take some examples of adjunctions and work out what this equivalence is.
-[(b)] Show that for any adjunction, the right adjoint is full and faithful if and only if the counit is an isomorphism.
+ Show that for any adjunction, the right adjoint is full and faithful if and only if the counit is an isomorphism.
 An adjunction satisfying the equivalent conditions of part $ X $ is called a reflection.
 (Compare Example $ X $.)
 Of the examples of adjunctions given in this chapter, which are reflections?
-[(b)] Let $ ffrom K to L $ be a map of sets, and denote by $ f^*from pset(L) to pset(K) $ the map sending a subset $ S $ of $ L $ to its inverse image $ f^{ - 1}S sub K $.
+ Let $ ffrom K to L $ be a map of sets, and denote by $ f^*from pset(L) to pset(K) $ the map sending a subset $ S $ of $ L $ to its inverse image $ f^{ - 1}S sub K $.
 Then $ f^* $ is order - preserving with respect to the inclusion orderings on $ pset(K) $ and $ pset(L) $ , and so can be seen as a functor.
 Find left and right adjoints to $ f^* $.
 Now let $ X $ and $ Y $ be sets, and write $ pfrom X times Y to X $ for first projection.
@@ -3068,7 +3054,7 @@ But $ G(q) of eta_A = bar{q} $ by Lemma $ X $ , so $ X $ commutes if and only if
 Hence $ bar{f} $ is the unique map $ (F(A), eta_A) to (B, f) $ in $ comma{A}{G} $.
 We now meet our third and final formulation of adjointness.
 Take categories and functors $ oppairi{cat{A}}{cat{B}}{F}{G} $.
-There is a one - to - one correspondence between: [(b)] adjunctions between $ F $ and $ G $ (with $ F $ on the left and $ G $ on the right); natural transformations $ etafrom 1_cat{A} to GF $ such that $ eta_Afrom A to GF(A) $ is initial in $ comma{A}{G} $ for every $ A in cat{A} $.
+There is a one - to - one correspondence between:  adjunctions between $ F $ and $ G $ (with $ F $ on the left and $ G $ on the right); natural transformations $ etafrom 1_cat{A} to GF $ such that $ eta_Afrom A to GF(A) $ is initial in $ comma{A}{G} $ for every $ A in cat{A} $.
 We have just shown that every adjunction between $ F $ and $ G $ gives rise to a natural transformation $ eta $ with the property stated in $ X $.
 To prove the theorem, we have to show that every $ eta $ with the property in $ X $ is the unit of exactly one adjunction between $ F $ and $ G $.
 By Theorem $ X $ , an adjunction between $ F $ and $ G $ amounts to a pair $ (eta, epsln) $ of natural transformations satisfying the triangle identities.

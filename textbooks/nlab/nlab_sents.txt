@@ -32,10 +32,8 @@ A 'subspace' of a topological vector space usually means simply a linear subspac
 However, the subspaces that we really want in categories such as Ban are the closed linear subspaces.
 (Essentially, this is because we want our subspaces to be complete whenever our objects are complete.)
 Given a locale $ L $ , which can also be thought of as a frame, a sublocale of $ L $ is given by a nucleus on the frame $ L $ .
-Even if $ L $ is topological, so that $ L $ can be identified with a sober topological space, still there are generally many more sublocales of $ L $ than the topological ones. ...
-submanifold ...
+Even if $ L $ is topological, so that $ L $ can be identified with a sober topological space, still there are generally many more sublocales of $ L $ than the topological ones.
 For Grothendieck topologies, one instead of a subspace has a concept of a subsite.
->
 This entry is about the concept in topology.
 For quotient vector spaces in linear algebras see there.
 A quotient space is a quotient object in some category of spaces, such as Top (of topological spaces), or Loc (of locales), etc.
@@ -459,8 +457,7 @@ For $ H hookrightarrow G $ a sub - Lie group inclusion write $ mathbf{B}H to mat
 The homotopy fiber of this map (in Smooth∞Grpd) is the coset space $ G/H $ : there is a homotopy fiber sequence $ G/H to mathbf{B}H to mathbf{B}G , $ .
 Now let $ H hookrightarrow K hookrightarrow G $ be a sequence of two subgroup inclusions.
 By the above this yields the diagram $ array{ K/H &to& G/H &to& G/K downarrow && downarrow && downarrow mathbf{B}H &to& mathbf{B}H &to& mathbf{B}K downarrow && downarrow && downarrow mathbf{B}K &to& mathbf{B}G &to& mathbf{B}G } $ Discussion in univalent foundations of mathematics (homotopy type theory with the univalence axiom, but for 1 - groups): > (in Agda) See also A subgroup $ N $ of a group $ G $ is normal if the conjugation $ nmapsto g^{ - 1}n g $ by any element $ gin G $ leaves $ N $ invariant, i.e $ . g^{ - 1}N g coloneqq {g^{ - 1}n g, |, nin N } = N $ .
-A subgroup $ N $ is normal iff
-the partition of the group into left cosets of the subgroup $ N $ , that is the sets $ g N = { g n, |, nin N } $ , is stable in the sense that the left coset $ g1 g2 N $ of the product $ g1 g2 $ of any two elements $ g1, g2in G $ depends only on the coset $ g1 N $ , $ g2 N $ .
+A subgroup $ N $ is normal iff the partition of the group into left cosets of the subgroup $ N $ , that is the sets $ g N = { g n, |, nin N } $ , is stable in the sense that the left coset $ g1 g2 N $ of the product $ g1 g2 $ of any two elements $ g1, g2in G $ depends only on the coset $ g1 N $ , $ g2 N $ .
 Thus there is well defined product on the set of cosets making the set of left cosets $ Nbackslash G $ a group.
 By $ g N = g N g^{ - 1}g = N g $ the set of left cosets and the set of right cosets of a normal subgroup coincide; thus the induced group structure on the right coset set $ G/N $ is the same and called the quotient group (see quotient object).
 Thus normal subgroups may also be defined as kernels $ f^{ - 1}(e) $ of group homomorphisms $ G to H $ ( $ e in H $ is the identity), and this is largely the point of normal subgroups: they are equivalent to congruence relations in the category of groups.
@@ -483,7 +480,7 @@ Such a normal morphism equivalently exhibits an ∞ - group extension $ G $ of $
 See there for more details.
 Every ordinary normal subgroup inclusion $ K hookrightarrow G $ is also a normal morphism of ∞ - groups, but there are more morphisms of 1 - groups that are normal as morphisms of $ infty $ - groups.
 See example below.
-{Recognition} A recognition principle for normality of morphisms of ∞ - groups is (Prezma, theorem (vi)2).
+A recognition principle for normality of morphisms of ∞ - groups is (Prezma, theorem (vi)2).
 Every subgroup of an abelian group is normal, trivially.
 For $ G $ a group equipped with an action on another group $ N $ by group automorphisms $ rho : G to Aut(N) $ , the canonical inclusion $ N hookrightarrow G ltimes N $ exhibits $ N $ as a normal subgroup of the semidirect product group $ G ltimes N $ .
 If $ N $ is a normal subgroup of $ H $ and $ phi: G to H $ is a group homomorphism, then the inverse image $ phi^{ - 1}(N) $ is normal in $ G $ and $ phi $ induces a group homomorphism $ G/f^{ - 1}(N) to H/N $ .
@@ -584,22 +581,17 @@ The unitary group $ U(n) $ is compact topological space, hence in particular a c
 {HomotopyGroups} For $ n, N in mathbb{N} $ , $ n leq N $ , then the canonical inclusion of unitary groups
 $ U(n) hookrightarrow U(N) $ is a 2n - equivalence, hence induces an isomorphism on homotopy groups in degrees $ lt 2n $ and a surjection in degree $ 2n $ .
 Consider the coset quotient projection $ U(n) longrightarrow U(n+1) longrightarrow U(n+1)/U(n) , $ .
-By prop.
-and by this corollary, the projection $ U(n+1)to U(n+1)/U(n) $ is a Serre fibration.
+By prop. X and by this corollary, the projection $ U(n+1)to U(n+1)/U(n) $ is a Serre fibration.
 Furthermore, example identifies the coset with the (2n+1) - sphere $ S^{2n+1}simeq U(n+1)/U(n) , $ .
 Therefore the long exact sequence of homotopy groups of the fiber sequence $ U(n)to U(n+1) to S^{2n+1} $ is of the form $ cdots to pi{bullet+1}(S^{2n+1}) longrightarrow pibullet(U(n)) longrightarrow pibullet(U(n+1)) longrightarrow pibullet(S^{2n+1}) to cdots $ Since $ pi{leq 2n}(S^{2n+1}) = 0 $ , this implies that $ pi{lt 2n}(U(n)) overset{simeq}{longrightarrow} pi{lt 2n}(U(n+1)) $ is an isomorphism and that $ pi{2n}(U(n)) longrightarrow pi{2n}(U(n+1)) $ is surjective.
 Hence now the statement follows by induction over $ N - n $ .
 It follows that the homotopy groups $ pik(U(n)) $ are independent of $ n $ for $ n gt frac{k}{2} $ (the "stable range").
 So if $ U = underset{longrightarrow}{lim}n U(n) $ , then $ pik(U(n)) = pik(U) $ .
-By Bott periodicity we have
-$ array{ pi{2k+0}(U) &= 0 pi{2k+1}(U) &= mathbb{Z}. } $ In the unstable range for low $ n $ they instead start out as follows | $ G $ | $ pi1 $ | $ pi2 $ | $ pi3 $ | $ pi4 $ | $ pi5 $ | $ pi6 $ | $ pi7 $ | $ pi8 $ | $ pi9 $ | $ pi10 $ | $ pi11 $ | $ pi12 $ | $ pi13 $ | $ pi14 $ | $ pi15 $ | | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | | $ U(1) $ | $ mathbb{Z} $ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
-| | $ U(2) $ | " | 0
-| $ mathbb{Z} $ | $ mathbb{Z}2 $ | $ mathbb{Z}2 $ | $ mathbb{Z}{12} $ | $ mathbb{Z}2 $ | $ mathbb{Z}2 $ | $ mathbb{Z}3 $ | $ mathbb{Z}{15} $ | $ mathbb{Z}2 $ | $ mathbb{Z}2^{oplus 2} $ | $ mathbb{Z}3oplusmathbb{Z}{12} $ | $ mathbb{Z}2^{oplus 2}oplusmathbb{Z}{84} $ | $ mathbb{Z}2oplusmathbb{Z}2 $ | | $ U(3) $ | " | " | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}6 $ | 0 | $ mathbb{Z}{12} $ | $ mathbb{Z}3 $ | $ mathbb{Z}{30} $ | $ mathbb{Z}4 $ | $ mathbb{Z}{60} $ | $ mathbb{Z}6 $ | $ mathbb{Z}2oplusmathbb{Z}{84} $ | $ mathbb{Z}{36} $ | | $ U(4) $ | " | " | " | " | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}{24} $ | $ mathbb{Z}2 $ | $ mathbb{Z}2oplusmathbb{Z}{120} $ | $ mathbb{Z}4 $ | $ mathbb{Z}{60} $ | $ mathbb{Z}4 $ | $ mathbb{Z}2oplusmathbb{Z}{1680} $ | $ mathbb{Z}2oplusmathbb{Z}{72} $ | | $ U(5) $ | " | " | " | " | " | " | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}{120} $ | 0 | $ mathbb{Z}{360} $ | $ mathbb{Z}4 $ | $ mathbb{Z}{1680} $ | $ mathbb{Z}6 $ | | $ U(6) $ | " | " | " | " | " | " | " | " | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}{720} $ | $ mathbb{Z}2 $ | $ mathbb{Z}2oplusmathbb{Z}{5040} $ | $ mathbb{Z}6 $ | | $ U(7) $ | " | " | " | " | " | " | " | " | " | " | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}{5040} $ | 0 | | $ U(8) $ | " | " | " | " | " | " | " | " | " | " | " | " | " | 0 | $ mathbb{Z} $ | Due to the relation to the special unitary group, the higher homotopy groups of $ U(n) $ and
-$ SU(n) $ agree.
+By Bott periodicity we have in the unstable range for low $ n $ they instead start out as follows | $ G $ | $ pi1 $ | $ pi2 $ | $ pi3 $ | $ pi4 $ | $ pi5 $ | $ pi6 $ | $ pi7 $ | $ pi8 $ | $ pi9 $ | $ pi10 $ | $ pi11 $ | $ pi12 $ | $ pi13 $ | $ pi14 $ | $ pi15 $ | | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | - - | | $ U(1) $ | $ mathbb{Z} $ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0| | $ U(2) $ | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}2 $ | $ mathbb{Z}2 $ | $ mathbb{Z}{12} $ | $ mathbb{Z}2 $ | $ mathbb{Z}2 $ | $ mathbb{Z}3 $ | $ mathbb{Z}{15} $ | $ mathbb{Z}2 $ | $ mathbb{Z}2^{oplus 2} $ | $ mathbb{Z}3oplusmathbb{Z}{12} $ | $ mathbb{Z}2^{oplus 2}oplusmathbb{Z}{84} $ | $ mathbb{Z}2oplusmathbb{Z}2 $ | | $ U(3) $ | " | " | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}6 $ | 0 | $ mathbb{Z}{12} $ | $ mathbb{Z}3 $ | $ mathbb{Z}{30} $ | $ mathbb{Z}4 $ | $ mathbb{Z}{60} $ | $ mathbb{Z}6 $ | $ mathbb{Z}2oplusmathbb{Z}{84} $ | $ mathbb{Z}{36} $ | | $ U(4) $ | " | " | " | " | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}{24} $ | $ mathbb{Z}2 $ | $ mathbb{Z}2oplusmathbb{Z}{120} $ | $ mathbb{Z}4 $ | $ mathbb{Z}{60} $ | $ mathbb{Z}4 $ | $ mathbb{Z}2oplusmathbb{Z}{1680} $ | $ mathbb{Z}2oplusmathbb{Z}{72} $ | | $ U(5) $ | " | " | " | " | " | " | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}{120} $ | 0 | $ mathbb{Z}{360} $ | $ mathbb{Z}4 $ | $ mathbb{Z}{1680} $ | $ mathbb{Z}6 $ | | $ U(6) $ | " | " | " | " | " | " | " | " | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}{720} $ | $ mathbb{Z}2 $ | $ mathbb{Z}2oplusmathbb{Z}{5040} $ | $ mathbb{Z}6 $ | | $ U(7) $ | " | " | " | " | " | " | " | " | " | " | " | 0 | $ mathbb{Z} $ | $ mathbb{Z}{5040} $ | 0 | | $ U(8) $ | " | " | " | " | " | " | " | " | " | " | " | " | " | 0 | $ mathbb{Z} $ | Due to the relation to the special unitary group, the higher homotopy groups of $ U(n) $ and $ SU(n) $ agree.
 The $ U(2) $ row can be found using the fact that $ SU(2) $ is diffeomorphic to the 3 - sphere $ S^3 $ .
 The $ U(3) $ row can be found using Mimura - Toda 6(iii)
-Otherwise the table is given in columns $ pik $ , $ k= 6, ldots, 15 $ , and in rows $ U(n) $ , $ n=4, ldots, 8 $ , by the Encyclopedic Dictionary of Mathematics, Table (vi)VII in Appendix
-A. A good discussion about the various topologies one might place on $ U(mathcal{H}) $ and how they all agree and make $ U(mathcal{H}) $ a Polish group is in (Espinoza - Uribe).
+Otherwise the table is given in columns $ pik $ , $ k= 6, ldots, 15 $ , and in rows $ U(n) $ , $ n=4, ldots, 8 $ , by the Encyclopedic Dictionary of Mathematics, Table (vi)VII in Appendix A. 
+A good discussion about the various topologies one might place on $ U(mathcal{H}) $ and how they all agree and make $ U(mathcal{H}) $ a Polish group is in (Espinoza - Uribe).
 For $ mathcal{H} $ a Hilbert space, which can be either finite or infinite dimensional, the unitary group $ U(mathcal{H}) $ and the general linear group $ GL(mathcal{H}) $ , regarded as topological groups, have the same homotopy type.
 Additionally, $ U(mathcal{H}) $ is a maximal compact subgroup of $ GL(mathcal{H}) $ for finite - dimensional $ mathcal{H} $ .
 By the Gram - Schmidt process.
@@ -811,8 +803,6 @@ On the other hand, we could try to modify the concept of principal ideal domain 
 For instance, we could demand that every decidable ideal is principal, or (potentially more strongly) that any ideal generated by a decidable subset is principal.
 While these seem to work at first, they are too weak to prove that every PID is a B&233;zout domain, so we should try to think of something better.
 Some authors have tried to define a principal ideal domain as a Noetherian Bézout domain, but it is unknown if this still coincides in constructive mathematics with the definition of principal ideal domain above.
-6 (1940), 345 - 35(vi) <div style="float:right;margin:0 10px 10px 0;"> <img src="https://ncatlab.org/nlab/files/SomePrimes.jpg"
-width="60"/> </div>
 A prime number is a nonzero natural number that cannot be written as a product of finitely many natural numbers (all) other than itself, hence a natural number greater than 1 that is divisible only by 1 and itself.
 This means that every natural number $ n in mathbb{N} $ is, up to re - ordering of factors, uniquely expressed as a product of a tuple of prime numbers: $ n ;=; 2^{n1} cdot 3^{n2} cdot 5^{n3} cdot 7^{n4} cdot 11^{ n5 } cdots $ This is called the prime factorization of $ n $ .
 Notice that while the number $ 1 in mathbb{N} $ is, clearly, only divisible by one and by itself, hence might look like it deserves to be counted as a prime number, too, this would break the uniqueness of this prime factorization.

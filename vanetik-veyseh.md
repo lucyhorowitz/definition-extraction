@@ -5,7 +5,7 @@
     - about 20% more non-definitions than definitions
     - more articles than sentences???
     - link: https://github.com/uplink007/FinalProject/tree/master/data/wolfram
-- TODO: test our code on their annotations
+- TODO: test **our code** on **their annotations**
 - they implemented a bunch of different neural network structures
     - don't think it's feasible for us to test them all
     - link to all: https://github.com/uplink007/FinalProject/tree/master/model
@@ -15,7 +15,7 @@
 
 ## Veyseh: "A Joint Model for Definition Extraction with Syntactic Connection and Semantic Consistency"
 - do sentence classification and "sequence labeling" (i.e. saying what term is being defined) simultaneously
-- TODO: test Veyesh code on our annotations (and Vanetik annotations)
+- TODO: test **their code** on **our annotations** (and Vanetik annotations)
     - https://github.com/amirveyseh/definition_extraction
 - they aren't domain-specific like we are (and Vanetik et al. claim to be)
     - they do merely OK on sentence classificaiton, but that's comparable to or better than SOTA

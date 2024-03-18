@@ -13,3 +13,5 @@
     - is this something? do we want to use only dependencies? I didn't really understand how they got this info
 - second paper: https://www.mdpi.com/2227-7390/9/19/2502
     - provides updated (better) Wolfram dataset, which I've downloaded as wolframall_bad.txt and wolframall_good.txt
+    - a mixed set of sentences is in wolframall_mix.txt
+    - I wonder if we will need to do things like fix the spaces after punctuation for our models to work

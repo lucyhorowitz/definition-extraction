@@ -1,0 +1,15 @@
+## Vanetik: "Automated Discovery of Mathematical Definitions in Text"
+- present new dataset for defext on math (called WFM)
+    - manually annotated from Wolfram MathWorld
+    - about 20% more non-definitions than definitions
+    - more articles than sentences???
+    - link: https://github.com/uplink007/FinalProject/tree/master/data/wolfram
+- TODO: test **our code** on **their annotations**
+- they implemented a bunch of different neural network structures
+    - don't think it's feasible for us to test them all
+    - link to all: https://github.com/uplink007/FinalProject/tree/master/model
+    - best performances on the WFM (two different embedding types) are around 0.78
+- in all they "propose a novel representation for text sentences based solely on the dependency information, and its combination with deep neural networks, to handle [definiton extraction]. 
+    - is this something? do we want to use only dependencies? I didn't really understand how they got this info
+- second paper: https://www.mdpi.com/2227-7390/9/19/2502
+    - provides updated (better) Wolfram dataset, which I've downloaded as wolframall_bad.txt and wolframall_good.txt

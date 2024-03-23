@@ -15,3 +15,4 @@
     - provides updated (better) Wolfram dataset, which I've downloaded as wolframall_bad.txt and wolframall_good.txt
     - a mixed set of sentences is in wolframall_mix.txt
     - I wonder if we will need to do things like fix the spaces after punctuation for our models to work
+    - note that I removed all quotation marks from the text so that the csv would work properly

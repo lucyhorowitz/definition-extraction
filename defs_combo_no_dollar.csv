@@ -1121,7 +1121,7 @@ We give here a positive answer to this question.,0
 "In the process we define what we mean by a quasi locally connected topos, a notion that we feel may be of interest in its own right.",0
 The core of a category (first defined in ``Core algebra revisited'') has the structure of an abstract core algebra (first defined in the same place).,0
 A question was left open: is there more structure yet to be defined?,0
-The answer is no: it is shown that any operation on an object arising from the fact that the object is the core of its category can be defined using only the constant and two binary operations that appear in the definition of abstract core algebra.,90
+The answer is no: it is shown that any operation on an object arising from the fact that the object is the core of its category can be defined using only the constant and two binary operations that appear in the definition of abstract core algebra.,0
 In the process a number of facts about abstract core algebras must be developed.,0
 "New techniques for constructing a distributive law of a monad over another are studied using submonads, quotient monads, product monads, recursively-defined distributive laws, and linear equations.",0
 Sequel papers will consider distributive laws in closed categories and will construct monad approximations for compositions which fail to be a monad.,0
@@ -1130,7 +1130,7 @@ Francisco Marmolejo pointed out a mistake in the statement of a proposition in o
 The mistaken version is used later in that paper.,0
 Our purpose here is to correct the error by providing an explicit description of the finite coproduct completion of the dual of the category of connected G -sets.,0
 The description uses the distinguished morphisms of a factorization system on the category of G -sets.,0
-We give an interpretation of Yetter's Invariant of manifolds M  in terms of the homotopy type of the function space,
+We give an interpretation of Yetter's Invariant of manifolds M  in terms of the homotopy type of the function space,0
 "TOP(M, B(cal G)) , where cal G  is a crossed module and B(cal G)  is its classifying space.",0
 "From this formulation, there follows that Yetter's invariant depends only on the homotopy type of M , and the weak homotopy type of the crossed module cal G .",0
 "We use this interpretation to define a twisting of Yetter's Invariant by cohomology classes of crossed modules, defined as cohomology classes of their classifying spaces, in the form of a state sum invariant.",0
@@ -2606,7 +2606,7 @@ We study the structure of the category of polynomials in a locally cartesian clo
 In this paper we provide an alternative construction of cofree Cartesian differential categories inspired by tangent categories.,0
 "In particular, composition defined here is based on the fact that the chain rule for Cartesian differential categories can be expressed using the tangent functor, which simplifies the formulation of the higher order chain rule.",0
 "In this paper, we introduce the concept of a topological space in the topos M-Set  of M -sets, for a monoid M .",0
-"We do this by replacing the notion of open ""subset"" by open ""subobject"" in the definition of a topology.",?
+"We do this by replacing the notion of open ""subset"" by open ""subobject"" in the definition of a topology.",0
 "We prove that the resulting category has an open subobject classifier, which is the counterpart of the Sierpinski space in this topos.",0
 We also study the relation between the given notion of topology and the notion of a poset in this universe.,0
 "In fact, the counterpart of the specialization pre-order is given for topological spaces in M-Set , and it is shown that, similar to the classic case, for a special kind of topological spaces in M-Set , namely T_0  ones, it is a partial order.",0
@@ -4367,7 +4367,6 @@ A topological space  X  is compact if every open cover of  X  has a finite subco
 "Let  phi  be a differentiable k - form on the open set  Usubset mathbb R^n  given by  phi = sum_{i_1<dots<i_k} phi_{i_1,dots,i_k}(x_1,dots,x_n)dx_{i_1}wedgecdotswedge dx_{i_k}in mathcal A^k(U)  .",0
 "Define the differential of  phi  by  dphi = sum_{i_1<dots<i_k} dphi_{i_1,dots,i_k}wedge dx_{i_1}wedgecdotswedge dx_{i_k} in mathcal A^{k+1}(U)  where the  phi_j  are ( : what??).",1
 "That is,  d  is the linear transformation between the vector space of k - and k+1 - forms  d: mathcal A^k(U) to mathcal A^{k+1}(U)  given by  g(x)dx_{i_1} wedgecdotswedge dx_{i_k} mapsto dgwedge x_{i_1}wedgecdotswedge dx_{i_k}  .",1
-: what is d for the functions??????,0
 Let  C  be a category.,0
 "A morphism  fin text{Hom}_C(A,B)  is an epimorphism if for all objects  Z  of  C  and all morphisms  alpha,betain text{Hom}_C(B,Z)  ,  alpha circ f= betacirc fimplies alpha = beta  .",1
 "A function  f: mathbb R^n to mathbb R  is Lebesgue measurable if for every open  G in mathbb R  , the preimage  f^{ - 1}(G)  is Lebesgue measurable.",1
